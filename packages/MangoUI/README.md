@@ -31,3 +31,48 @@ $ brew cleanup                          # Remove any older versions from the cel
 
 make sure git is installed.
 
+### Homebrew
+
+update your brew to the very new version:
+
+```shell
+brew update && brew upgrade && brew cleanup
+brew cask cleanup
+```
+
+
+some useful libs
+
+```shell
+
+brew install tig # the helper of git log
+brew install pyenv # python version management 
+
+```
+
+### init project
+
+```
+npm init
+```
+
+### yarn
+
+```
+brew install yarn
+```
+
+```
+brew upgrade yarn 
+```
+
+
+
+## Other
+
+### git moji
+<https://gitmoji.carloscuesta.me/>
+
+
+
+
