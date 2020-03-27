@@ -8,7 +8,7 @@ export const withText = () => <Button>a Button</Button>;
 export const withEmoji = () => (
   <Button>
     <span role="img" aria-label="so cool">
-      😀 😎 👍 💯
+      😀 😎 👍
     </span>
   </Button>
 );
