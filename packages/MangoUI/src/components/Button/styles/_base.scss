@@ -1,0 +1,60 @@
+$button-default-border-color: #333333 !default;
+$button-default-font-color: #010101 !default;
+$button-default-background-color: #ffffff !default;
+$button-default-hover-color: $button-default-background-color !default;
+
+$button-primary-border-color: #333333 !default;
+$button-primary-font-color: #010101 !default;
+$button-primary-background-color: #ffffff !default;
+$button-primary-hover-color: $button-primary-background-color !default;
+
+$button-error-border-color: #333333 !default;
+$button-error-font-color: #010101 !default;
+$button-error-background-color: #ffffff !default;
+$button-error-hover-color: $button-error-background-color !default;
+
+$button-border-radius: 4px !default;
+
+.Button {
+  @include buttonText;
+  border-radius: $button-border-radius;
+  border: 1px solid;
+  margin: 4px;
+  outline: none;
+  cursor: pointer;
+  text-transform: uppercase;
+  @include shadow;
+  padding: 0.5rem 1rem;
+
+  &.default {
+    border-color: $button-default-border-color;
+    color: $button-default-font-color;
+    background-color: $button-default-background-color;
+    &:hover {
+      background-color: $button-default-hover-color;
+    }
+  }
+
+  &.primary {
+    border-color: $button-primary-border-color;
+    color: $button-primary-font-color;
+    background-color: $button-primary-background-color;
+    &:hover {
+      background-color: $button-primary-hover-color;
+    }
+  }
+
+  &.error {
+    border-color: $button-error-border-color;
+    color: $button-error-font-color;
+    background-color: $button-error-background-color;
+    &:hover {
+      background-color: $button-error-hover-color;
+    }
+  }
+
+  &:disabled {
+    cursor: not-allowed;
+    opacity: 0.5;
+  }
+}
