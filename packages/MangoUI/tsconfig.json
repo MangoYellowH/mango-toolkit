@@ -33,6 +33,9 @@
         "experimentalDecorators": true,
         "emitDecoratorMetadata": true
     },
+    "files":[
+      "./src/types/index.d.ts"
+    ],
     "include": [
         "src/**/*"
     ],

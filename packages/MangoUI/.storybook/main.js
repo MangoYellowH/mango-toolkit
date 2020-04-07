@@ -23,6 +23,24 @@ module.exports = {
           include: path.resolve(__dirname, '../'),
         });
 
+        config.module.rules = config.module.rules.map(rule => {
+          if (rule.test.toString().includes('svg')) {
+            const test = rule.test
+              .toString()
+              .replace('svg|', '')
+              .replace(/\//g, '');
+            return { ...rule, test: new RegExp(test) };
+          } else {
+            return rule;
+          }
+        });
+
+        config.module.rules.push(
+          {
+            test: /\.svg$/,
+            use: ['@svgr/webpack'],
+          });
+
         config.resolve.extensions.push('.ts', '.tsx');
         return config;
       },

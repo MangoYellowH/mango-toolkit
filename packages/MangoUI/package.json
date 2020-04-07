@@ -21,6 +21,7 @@
     "@storybook/addon-info": "^5.3.17",
     "@storybook/addon-storysource": "^5.3.17",
     "@storybook/addon-viewport": "^5.3.17",
+    "@svgr/webpack": "^5.3.1",
     "@types/events": "^3.0.0",
     "@types/jest": "^25.1.4",
     "@typescript-eslint/eslint-plugin": "^2.25.0",
