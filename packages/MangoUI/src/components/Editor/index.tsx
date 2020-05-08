@@ -10,7 +10,10 @@ interface EditorProps {
 }
 
 const Editor: React.FC<EditorProps> = ({
-  classes, onChange, editorState, placeholder,
+  classes,
+  onChange,
+  editorState,
+  placeholder,
 }: EditorProps): ReactElement<EditorProps> => {
   const thisEditor = React.useRef<BaseEditor>(null);
 

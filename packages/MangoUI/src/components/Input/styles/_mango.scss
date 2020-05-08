@@ -8,8 +8,9 @@ $input-background-color: $background-color;
 
 @import './base';
 
-input[type~="text"] {
-  &:focus, &:hover {
+input[type~='text'] {
+  &:focus,
+  &:hover {
     @include shadow;
   }
 }

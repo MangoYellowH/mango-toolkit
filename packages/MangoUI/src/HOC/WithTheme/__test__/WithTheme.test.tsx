@@ -5,7 +5,7 @@ import WithTheme from '../WithTheme';
 describe('WithTheme', () => {
   beforeEach(cleanup);
   test('test WithTheme could wrapper correctly', () => {
-    const Mock: React.FC<{}> = () => (<div data-testid="mock">mock</div>);
+    const Mock: React.FC<{}> = () => <div data-testid="mock">mock</div>;
     const mockStyle = 'mockStyle';
     const Wrapper = WithTheme<{}>(Mock, mockStyle);
     const { container, getByTestId } = render(<Wrapper />);

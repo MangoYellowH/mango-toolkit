@@ -5,7 +5,6 @@ import Mango from '../../HOC/WithTheme/Mango';
 import Skyline from '../../HOC/WithTheme/Skyline';
 import Editor from './index';
 
-
 export default {
   title: 'Components/Editor',
 };
@@ -23,7 +22,6 @@ const EditorStory = (): ReactElement => {
     />
   );
 };
-
 
 export const mango = Mango<{}>(EditorStory);
 

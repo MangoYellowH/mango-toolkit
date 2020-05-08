@@ -9,11 +9,8 @@ describe('Button Component', () => {
     const buttonClass = 'buttonClass';
     const mockFn = jest.fn();
     const { container, getByText } = render(
-      <Button
-        classes={buttonClass}
-        onClick={mockFn}
-      >
-        { mockLabel }
+      <Button classes={buttonClass} onClick={mockFn}>
+        {mockLabel}
       </Button>,
     );
     // the button has been rendered
@@ -35,11 +32,8 @@ describe('Button Component', () => {
     const mockLabel = 'mockLable';
     const mockFn = jest.fn();
     const { getByText } = render(
-      <Button
-        onClick={mockFn}
-        disabled
-      >
-        { mockLabel }
+      <Button onClick={mockFn} disabled>
+        {mockLabel}
       </Button>,
     );
     // the button has been rendered

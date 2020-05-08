@@ -16,7 +16,11 @@ interface ButtonProps {
 }
 
 const Button: React.FC<ButtonProps> = ({
-  children, onClick, type = 'default', classes, disabled,
+  children,
+  onClick,
+  type = 'default',
+  classes,
+  disabled,
 }: ButtonProps): ReactElement<ButtonProps> => (
   <button
     type="button"

@@ -4,7 +4,6 @@ import Mango from '../../HOC/WithTheme/Mango';
 import Skyline from '../../HOC/WithTheme/Skyline';
 import Input from './index';
 
-
 export default {
   title: 'Components/Input',
 };

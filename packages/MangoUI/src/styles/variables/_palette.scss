@@ -1,394 +1,379 @@
 // copy from open color
 
-
 //  General
 //  ───────────────────────────────────
 
-$white:         #ffffff;
-$black:         #000000;
-
+$white: #ffffff;
+$black: #000000;
 
 //  Gray
 //  ───────────────────────────────────
 
 $gray-list: (
-  "0": #f8f9fa,
-  "1": #f1f3f5,
-  "2": #e9ecef,
-  "3": #dee2e6,
-  "4": #ced4da,
-  "5": #adb5bd,
-  "6": #868e96,
-  "7": #495057,
-  "8": #343a40,
-  "9": #212529
+  '0': #f8f9fa,
+  '1': #f1f3f5,
+  '2': #e9ecef,
+  '3': #dee2e6,
+  '4': #ced4da,
+  '5': #adb5bd,
+  '6': #868e96,
+  '7': #495057,
+  '8': #343a40,
+  '9': #212529,
 );
 
-$gray0: map-get($gray-list, "0");
-$gray1: map-get($gray-list, "1");
-$gray2: map-get($gray-list, "2");
-$gray3: map-get($gray-list, "3");
-$gray4: map-get($gray-list, "4");
-$gray5: map-get($gray-list, "5");
-$gray6: map-get($gray-list, "6");
-$gray7: map-get($gray-list, "7");
-$gray8: map-get($gray-list, "8");
-$gray9: map-get($gray-list, "9");
-
+$gray0: map-get($gray-list, '0');
+$gray1: map-get($gray-list, '1');
+$gray2: map-get($gray-list, '2');
+$gray3: map-get($gray-list, '3');
+$gray4: map-get($gray-list, '4');
+$gray5: map-get($gray-list, '5');
+$gray6: map-get($gray-list, '6');
+$gray7: map-get($gray-list, '7');
+$gray8: map-get($gray-list, '8');
+$gray9: map-get($gray-list, '9');
 
 //  Red
 //  ───────────────────────────────────
 
 $red-list: (
-  "0": #fff5f5,
-  "1": #ffe3e3,
-  "2": #ffc9c9,
-  "3": #ffa8a8,
-  "4": #ff8787,
-  "5": #ff6b6b,
-  "6": #fa5252,
-  "7": #f03e3e,
-  "8": #e03131,
-  "9": #c92a2a
+  '0': #fff5f5,
+  '1': #ffe3e3,
+  '2': #ffc9c9,
+  '3': #ffa8a8,
+  '4': #ff8787,
+  '5': #ff6b6b,
+  '6': #fa5252,
+  '7': #f03e3e,
+  '8': #e03131,
+  '9': #c92a2a,
 );
 
-$red0: map-get($red-list, "0");
-$red1: map-get($red-list, "1");
-$red2: map-get($red-list, "2");
-$red3: map-get($red-list, "3");
-$red4: map-get($red-list, "4");
-$red5: map-get($red-list, "5");
-$red6: map-get($red-list, "6");
-$red7: map-get($red-list, "7");
-$red8: map-get($red-list, "8");
-$red9: map-get($red-list, "9");
-
+$red0: map-get($red-list, '0');
+$red1: map-get($red-list, '1');
+$red2: map-get($red-list, '2');
+$red3: map-get($red-list, '3');
+$red4: map-get($red-list, '4');
+$red5: map-get($red-list, '5');
+$red6: map-get($red-list, '6');
+$red7: map-get($red-list, '7');
+$red8: map-get($red-list, '8');
+$red9: map-get($red-list, '9');
 
 //  Pink
 //  ───────────────────────────────────
 
 $pink-list: (
-  "0": #fff0f6,
-  "1": #ffdeeb,
-  "2": #fcc2d7,
-  "3": #faa2c1,
-  "4": #f783ac,
-  "5": #f06595,
-  "6": #e64980,
-  "7": #d6336c,
-  "8": #c2255c,
-  "9": #a61e4d
+  '0': #fff0f6,
+  '1': #ffdeeb,
+  '2': #fcc2d7,
+  '3': #faa2c1,
+  '4': #f783ac,
+  '5': #f06595,
+  '6': #e64980,
+  '7': #d6336c,
+  '8': #c2255c,
+  '9': #a61e4d,
 );
 
-$pink0: map-get($pink-list, "0");
-$pink1: map-get($pink-list, "1");
-$pink2: map-get($pink-list, "2");
-$pink3: map-get($pink-list, "3");
-$pink4: map-get($pink-list, "4");
-$pink5: map-get($pink-list, "5");
-$pink6: map-get($pink-list, "6");
-$pink7: map-get($pink-list, "7");
-$pink8: map-get($pink-list, "8");
-$pink9: map-get($pink-list, "9");
-
+$pink0: map-get($pink-list, '0');
+$pink1: map-get($pink-list, '1');
+$pink2: map-get($pink-list, '2');
+$pink3: map-get($pink-list, '3');
+$pink4: map-get($pink-list, '4');
+$pink5: map-get($pink-list, '5');
+$pink6: map-get($pink-list, '6');
+$pink7: map-get($pink-list, '7');
+$pink8: map-get($pink-list, '8');
+$pink9: map-get($pink-list, '9');
 
 //  Grape
 //  ───────────────────────────────────
 
 $grape-list: (
-  "0": #f8f0fc,
-  "1": #f3d9fa,
-  "2": #eebefa,
-  "3": #e599f7,
-  "4": #da77f2,
-  "5": #cc5de8,
-  "6": #be4bdb,
-  "7": #ae3ec9,
-  "8": #9c36b5,
-  "9": #862e9c
+  '0': #f8f0fc,
+  '1': #f3d9fa,
+  '2': #eebefa,
+  '3': #e599f7,
+  '4': #da77f2,
+  '5': #cc5de8,
+  '6': #be4bdb,
+  '7': #ae3ec9,
+  '8': #9c36b5,
+  '9': #862e9c,
 );
 
-$grape0: map-get($grape-list, "0");
-$grape1: map-get($grape-list, "1");
-$grape2: map-get($grape-list, "2");
-$grape3: map-get($grape-list, "3");
-$grape4: map-get($grape-list, "4");
-$grape5: map-get($grape-list, "5");
-$grape6: map-get($grape-list, "6");
-$grape7: map-get($grape-list, "7");
-$grape8: map-get($grape-list, "8");
-$grape9: map-get($grape-list, "9");
-
+$grape0: map-get($grape-list, '0');
+$grape1: map-get($grape-list, '1');
+$grape2: map-get($grape-list, '2');
+$grape3: map-get($grape-list, '3');
+$grape4: map-get($grape-list, '4');
+$grape5: map-get($grape-list, '5');
+$grape6: map-get($grape-list, '6');
+$grape7: map-get($grape-list, '7');
+$grape8: map-get($grape-list, '8');
+$grape9: map-get($grape-list, '9');
 
 //  Violet
 //  ───────────────────────────────────
 
 $violet-list: (
-  "0": #f3f0ff,
-  "1": #e5dbff,
-  "2": #d0bfff,
-  "3": #b197fc,
-  "4": #9775fa,
-  "5": #845ef7,
-  "6": #7950f2,
-  "7": #7048e8,
-  "8": #6741d9,
-  "9": #5f3dc4
+  '0': #f3f0ff,
+  '1': #e5dbff,
+  '2': #d0bfff,
+  '3': #b197fc,
+  '4': #9775fa,
+  '5': #845ef7,
+  '6': #7950f2,
+  '7': #7048e8,
+  '8': #6741d9,
+  '9': #5f3dc4,
 );
 
-$violet0: map-get($violet-list, "0");
-$violet1: map-get($violet-list, "1");
-$violet2: map-get($violet-list, "2");
-$violet3: map-get($violet-list, "3");
-$violet4: map-get($violet-list, "4");
-$violet5: map-get($violet-list, "5");
-$violet6: map-get($violet-list, "6");
-$violet7: map-get($violet-list, "7");
-$violet8: map-get($violet-list, "8");
-$violet9: map-get($violet-list, "9");
-
+$violet0: map-get($violet-list, '0');
+$violet1: map-get($violet-list, '1');
+$violet2: map-get($violet-list, '2');
+$violet3: map-get($violet-list, '3');
+$violet4: map-get($violet-list, '4');
+$violet5: map-get($violet-list, '5');
+$violet6: map-get($violet-list, '6');
+$violet7: map-get($violet-list, '7');
+$violet8: map-get($violet-list, '8');
+$violet9: map-get($violet-list, '9');
 
 //  Indigo
 //  ───────────────────────────────────
 
 $indigo-list: (
-  "0": #edf2ff,
-  "1": #dbe4ff,
-  "2": #bac8ff,
-  "3": #91a7ff,
-  "4": #748ffc,
-  "5": #5c7cfa,
-  "6": #4c6ef5,
-  "7": #4263eb,
-  "8": #3b5bdb,
-  "9": #364fc7
+  '0': #edf2ff,
+  '1': #dbe4ff,
+  '2': #bac8ff,
+  '3': #91a7ff,
+  '4': #748ffc,
+  '5': #5c7cfa,
+  '6': #4c6ef5,
+  '7': #4263eb,
+  '8': #3b5bdb,
+  '9': #364fc7,
 );
 
-$indigo0: map-get($indigo-list, "0");
-$indigo1: map-get($indigo-list, "1");
-$indigo2: map-get($indigo-list, "2");
-$indigo3: map-get($indigo-list, "3");
-$indigo4: map-get($indigo-list, "4");
-$indigo5: map-get($indigo-list, "5");
-$indigo6: map-get($indigo-list, "6");
-$indigo7: map-get($indigo-list, "7");
-$indigo8: map-get($indigo-list, "8");
-$indigo9: map-get($indigo-list, "9");
-
+$indigo0: map-get($indigo-list, '0');
+$indigo1: map-get($indigo-list, '1');
+$indigo2: map-get($indigo-list, '2');
+$indigo3: map-get($indigo-list, '3');
+$indigo4: map-get($indigo-list, '4');
+$indigo5: map-get($indigo-list, '5');
+$indigo6: map-get($indigo-list, '6');
+$indigo7: map-get($indigo-list, '7');
+$indigo8: map-get($indigo-list, '8');
+$indigo9: map-get($indigo-list, '9');
 
 //  Blue
 //  ───────────────────────────────────
 
 $blue-list: (
-  "0": #e7f5ff,
-  "1": #d0ebff,
-  "2": #a5d8ff,
-  "3": #74c0fc,
-  "4": #4dabf7,
-  "5": #339af0,
-  "6": #228be6,
-  "7": #1c7ed6,
-  "8": #1971c2,
-  "9": #1864ab
+  '0': #e7f5ff,
+  '1': #d0ebff,
+  '2': #a5d8ff,
+  '3': #74c0fc,
+  '4': #4dabf7,
+  '5': #339af0,
+  '6': #228be6,
+  '7': #1c7ed6,
+  '8': #1971c2,
+  '9': #1864ab,
 );
 
-$blue0: map-get($blue-list, "0");
-$blue1: map-get($blue-list, "1");
-$blue2: map-get($blue-list, "2");
-$blue3: map-get($blue-list, "3");
-$blue4: map-get($blue-list, "4");
-$blue5: map-get($blue-list, "5");
-$blue6: map-get($blue-list, "6");
-$blue7: map-get($blue-list, "7");
-$blue8: map-get($blue-list, "8");
-$blue9: map-get($blue-list, "9");
-
+$blue0: map-get($blue-list, '0');
+$blue1: map-get($blue-list, '1');
+$blue2: map-get($blue-list, '2');
+$blue3: map-get($blue-list, '3');
+$blue4: map-get($blue-list, '4');
+$blue5: map-get($blue-list, '5');
+$blue6: map-get($blue-list, '6');
+$blue7: map-get($blue-list, '7');
+$blue8: map-get($blue-list, '8');
+$blue9: map-get($blue-list, '9');
 
 //  Cyan
 //  ───────────────────────────────────
 
 $cyan-list: (
-  "0": #e3fafc,
-  "1": #c5f6fa,
-  "2": #99e9f2,
-  "3": #66d9e8,
-  "4": #3bc9db,
-  "5": #22b8cf,
-  "6": #15aabf,
-  "7": #1098ad,
-  "8": #0c8599,
-  "9": #0b7285
+  '0': #e3fafc,
+  '1': #c5f6fa,
+  '2': #99e9f2,
+  '3': #66d9e8,
+  '4': #3bc9db,
+  '5': #22b8cf,
+  '6': #15aabf,
+  '7': #1098ad,
+  '8': #0c8599,
+  '9': #0b7285,
 );
 
-$cyan0: map-get($cyan-list, "0");
-$cyan1: map-get($cyan-list, "1");
-$cyan2: map-get($cyan-list, "2");
-$cyan3: map-get($cyan-list, "3");
-$cyan4: map-get($cyan-list, "4");
-$cyan5: map-get($cyan-list, "5");
-$cyan6: map-get($cyan-list, "6");
-$cyan7: map-get($cyan-list, "7");
-$cyan8: map-get($cyan-list, "8");
-$cyan9: map-get($cyan-list, "9");
-
+$cyan0: map-get($cyan-list, '0');
+$cyan1: map-get($cyan-list, '1');
+$cyan2: map-get($cyan-list, '2');
+$cyan3: map-get($cyan-list, '3');
+$cyan4: map-get($cyan-list, '4');
+$cyan5: map-get($cyan-list, '5');
+$cyan6: map-get($cyan-list, '6');
+$cyan7: map-get($cyan-list, '7');
+$cyan8: map-get($cyan-list, '8');
+$cyan9: map-get($cyan-list, '9');
 
 //  Teal
 //  ───────────────────────────────────
 
 $teal-list: (
-  "0": #e6fcf5,
-  "1": #c3fae8,
-  "2": #96f2d7,
-  "3": #63e6be,
-  "4": #38d9a9,
-  "5": #20c997,
-  "6": #12b886,
-  "7": #0ca678,
-  "8": #099268,
-  "9": #087f5b
+  '0': #e6fcf5,
+  '1': #c3fae8,
+  '2': #96f2d7,
+  '3': #63e6be,
+  '4': #38d9a9,
+  '5': #20c997,
+  '6': #12b886,
+  '7': #0ca678,
+  '8': #099268,
+  '9': #087f5b,
 );
 
-$teal0: map-get($teal-list, "0");
-$teal1: map-get($teal-list, "1");
-$teal2: map-get($teal-list, "2");
-$teal3: map-get($teal-list, "3");
-$teal4: map-get($teal-list, "4");
-$teal5: map-get($teal-list, "5");
-$teal6: map-get($teal-list, "6");
-$teal7: map-get($teal-list, "7");
-$teal8: map-get($teal-list, "8");
-$teal9: map-get($teal-list, "9");
-
+$teal0: map-get($teal-list, '0');
+$teal1: map-get($teal-list, '1');
+$teal2: map-get($teal-list, '2');
+$teal3: map-get($teal-list, '3');
+$teal4: map-get($teal-list, '4');
+$teal5: map-get($teal-list, '5');
+$teal6: map-get($teal-list, '6');
+$teal7: map-get($teal-list, '7');
+$teal8: map-get($teal-list, '8');
+$teal9: map-get($teal-list, '9');
 
 //  Green
 //  ───────────────────────────────────
 
 $green-list: (
-  "0": #ebfbee,
-  "1": #d3f9d8,
-  "2": #b2f2bb,
-  "3": #8ce99a,
-  "4": #69db7c,
-  "5": #51cf66,
-  "6": #40c057,
-  "7": #37b24d,
-  "8": #2f9e44,
-  "9": #2b8a3e
+  '0': #ebfbee,
+  '1': #d3f9d8,
+  '2': #b2f2bb,
+  '3': #8ce99a,
+  '4': #69db7c,
+  '5': #51cf66,
+  '6': #40c057,
+  '7': #37b24d,
+  '8': #2f9e44,
+  '9': #2b8a3e,
 );
 
-$green0: map-get($green-list, "0");
-$green1: map-get($green-list, "1");
-$green2: map-get($green-list, "2");
-$green3: map-get($green-list, "3");
-$green4: map-get($green-list, "4");
-$green5: map-get($green-list, "5");
-$green6: map-get($green-list, "6");
-$green7: map-get($green-list, "7");
-$green8: map-get($green-list, "8");
-$green9: map-get($green-list, "9");
-
+$green0: map-get($green-list, '0');
+$green1: map-get($green-list, '1');
+$green2: map-get($green-list, '2');
+$green3: map-get($green-list, '3');
+$green4: map-get($green-list, '4');
+$green5: map-get($green-list, '5');
+$green6: map-get($green-list, '6');
+$green7: map-get($green-list, '7');
+$green8: map-get($green-list, '8');
+$green9: map-get($green-list, '9');
 
 //  Lime
 //  ───────────────────────────────────
 
 $lime-list: (
-  "0": #f4fce3,
-  "1": #e9fac8,
-  "2": #d8f5a2,
-  "3": #c0eb75,
-  "4": #a9e34b,
-  "5": #94d82d,
-  "6": #82c91e,
-  "7": #74b816,
-  "8": #66a80f,
-  "9": #5c940d
+  '0': #f4fce3,
+  '1': #e9fac8,
+  '2': #d8f5a2,
+  '3': #c0eb75,
+  '4': #a9e34b,
+  '5': #94d82d,
+  '6': #82c91e,
+  '7': #74b816,
+  '8': #66a80f,
+  '9': #5c940d,
 );
 
-$lime0: map-get($lime-list, "0");
-$lime1: map-get($lime-list, "1");
-$lime2: map-get($lime-list, "2");
-$lime3: map-get($lime-list, "3");
-$lime4: map-get($lime-list, "4");
-$lime5: map-get($lime-list, "5");
-$lime6: map-get($lime-list, "6");
-$lime7: map-get($lime-list, "7");
-$lime8: map-get($lime-list, "8");
-$lime9: map-get($lime-list, "9");
-
+$lime0: map-get($lime-list, '0');
+$lime1: map-get($lime-list, '1');
+$lime2: map-get($lime-list, '2');
+$lime3: map-get($lime-list, '3');
+$lime4: map-get($lime-list, '4');
+$lime5: map-get($lime-list, '5');
+$lime6: map-get($lime-list, '6');
+$lime7: map-get($lime-list, '7');
+$lime8: map-get($lime-list, '8');
+$lime9: map-get($lime-list, '9');
 
 //  Yellow
 //  ───────────────────────────────────
 
 $yellow-list: (
-  "0": #fff9db,
-  "1": #fff3bf,
-  "2": #ffec99,
-  "3": #ffe066,
-  "4": #ffd43b,
-  "5": #fcc419,
-  "6": #fab005,
-  "7": #f59f00,
-  "8": #f08c00,
-  "9": #e67700
+  '0': #fff9db,
+  '1': #fff3bf,
+  '2': #ffec99,
+  '3': #ffe066,
+  '4': #ffd43b,
+  '5': #fcc419,
+  '6': #fab005,
+  '7': #f59f00,
+  '8': #f08c00,
+  '9': #e67700,
 );
 
-$yellow0: map-get($yellow-list, "0");
-$yellow1: map-get($yellow-list, "1");
-$yellow2: map-get($yellow-list, "2");
-$yellow3: map-get($yellow-list, "3");
-$yellow4: map-get($yellow-list, "4");
-$yellow5: map-get($yellow-list, "5");
-$yellow6: map-get($yellow-list, "6");
-$yellow7: map-get($yellow-list, "7");
-$yellow8: map-get($yellow-list, "8");
-$yellow9: map-get($yellow-list, "9");
-
+$yellow0: map-get($yellow-list, '0');
+$yellow1: map-get($yellow-list, '1');
+$yellow2: map-get($yellow-list, '2');
+$yellow3: map-get($yellow-list, '3');
+$yellow4: map-get($yellow-list, '4');
+$yellow5: map-get($yellow-list, '5');
+$yellow6: map-get($yellow-list, '6');
+$yellow7: map-get($yellow-list, '7');
+$yellow8: map-get($yellow-list, '8');
+$yellow9: map-get($yellow-list, '9');
 
 //  Orange
 //  ───────────────────────────────────
 
 $orange-list: (
-  "0": #fff4e6,
-  "1": #ffe8cc,
-  "2": #ffd8a8,
-  "3": #ffc078,
-  "4": #ffa94d,
-  "5": #ff922b,
-  "6": #fd7e14,
-  "7": #f76707,
-  "8": #e8590c,
-  "9": #d9480f
+  '0': #fff4e6,
+  '1': #ffe8cc,
+  '2': #ffd8a8,
+  '3': #ffc078,
+  '4': #ffa94d,
+  '5': #ff922b,
+  '6': #fd7e14,
+  '7': #f76707,
+  '8': #e8590c,
+  '9': #d9480f,
 );
 
-$orange0: map-get($orange-list, "0");
-$orange1: map-get($orange-list, "1");
-$orange2: map-get($orange-list, "2");
-$orange3: map-get($orange-list, "3");
-$orange4: map-get($orange-list, "4");
-$orange5: map-get($orange-list, "5");
-$orange6: map-get($orange-list, "6");
-$orange7: map-get($orange-list, "7");
-$orange8: map-get($orange-list, "8");
-$orange9: map-get($orange-list, "9");
-
+$orange0: map-get($orange-list, '0');
+$orange1: map-get($orange-list, '1');
+$orange2: map-get($orange-list, '2');
+$orange3: map-get($orange-list, '3');
+$orange4: map-get($orange-list, '4');
+$orange5: map-get($orange-list, '5');
+$orange6: map-get($orange-list, '6');
+$orange7: map-get($orange-list, '7');
+$orange8: map-get($orange-list, '8');
+$orange9: map-get($orange-list, '9');
 
 //  Color list
 //  ───────────────────────────────────
 
-$color-spectrum:   9;
+$color-spectrum: 9;
 
 $color-list: (
-  $gray-list:      "gray",
-  $red-list:      "red",
-  $pink-list:      "pink",
-  $grape-list:      "grape",
-  $violet-list:      "violet",
-  $indigo-list:      "indigo",
-  $blue-list:      "blue",
-  $cyan-list:      "cyan",
-  $teal-list:      "teal",
-  $green-list:      "green",
-  $lime-list:      "lime",
-  $yellow-list:      "yellow",
-  $orange-list:      "orange"
+  $gray-list: 'gray',
+  $red-list: 'red',
+  $pink-list: 'pink',
+  $grape-list: 'grape',
+  $violet-list: 'violet',
+  $indigo-list: 'indigo',
+  $blue-list: 'blue',
+  $cyan-list: 'cyan',
+  $teal-list: 'teal',
+  $green-list: 'green',
+  $lime-list: 'lime',
+  $yellow-list: 'yellow',
+  $orange-list: 'orange',
 );

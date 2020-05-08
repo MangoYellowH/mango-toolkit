@@ -2,8 +2,9 @@
 
 import React from 'react';
 
-const WithTheme = function WithTheme <T>(
-  Component: React.ComponentType<T>, themeName: string,
+const WithTheme = function WithTheme<T>(
+  Component: React.ComponentType<T>,
+  themeName: string,
 ): React.ComponentType<T> {
   const MangoStyleWrapper: React.FC<T> = (props: T) => (
     <div className={themeName}>

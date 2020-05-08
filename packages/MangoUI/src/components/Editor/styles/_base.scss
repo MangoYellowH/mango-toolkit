@@ -9,7 +9,6 @@ $editor-placeholder-color: red !default;
 $editor-color: grey !default;
 $editor-background-color: #f1f1f1 !default;
 
-
 .Editor {
   @include inputText;
   border: 1px solid $editor-border-color;
@@ -25,7 +24,8 @@ $editor-background-color: #f1f1f1 !default;
     font-style: italic;
   }
 
-  &:focus, &:hover {
+  &:focus,
+  &:hover {
     border-color: $editor-border-color-focus;
   }
 }

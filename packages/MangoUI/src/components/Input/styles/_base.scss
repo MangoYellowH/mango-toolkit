@@ -5,7 +5,7 @@ $input-placeholder-color: red !default;
 $input-color: grey !default;
 $input-background-color: #f1f1f1 !default;
 
-input[type~="text"] {
+input[type~='text'] {
   @include inputText;
   border: 1px solid $input-border-color;
   margin: 2 px;
@@ -18,7 +18,8 @@ input[type~="text"] {
     color: $input-placeholder-color;
     font-style: italic;
   }
-  &:focus, &:hover {
+  &:focus,
+  &:hover {
     border-color: $input-border-color-focus;
   }
 }

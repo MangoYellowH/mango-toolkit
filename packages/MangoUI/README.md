@@ -1,4 +1,5 @@
 # MangoUI
+
 React based on Functional Component
 
 - [MangoUI](#mangoui)
@@ -40,13 +41,12 @@ brew update && brew upgrade && brew cleanup
 brew cask cleanup
 ```
 
-
 some useful libs
 
 ```shell
 
 brew install tig # the helper of git log
-brew install pyenv # python version management 
+brew install pyenv # python version management
 
 ```
 
@@ -63,14 +63,13 @@ brew install yarn
 ```
 
 ```
-brew upgrade yarn 
+brew upgrade yarn
 ```
-
-
 
 ## Other
 
 ### git moji
+
 <https://gitmoji.carloscuesta.me/>
 
 ### configure eslint typescript
@@ -80,7 +79,3 @@ yarn add -D eslint-config-airbnb eslint-plugin-react eslint-plugin-jsx-a11y esli
 ```
 
 read .eslint file
-
-
-
-

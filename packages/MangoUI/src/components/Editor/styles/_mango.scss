@@ -8,9 +8,9 @@ $editor-background-color: $background-color;
 
 @import './base';
 
-
 .Editor {
-  &:focus, &:hover {
+  &:focus,
+  &:hover {
     @include shadow;
   }
 }

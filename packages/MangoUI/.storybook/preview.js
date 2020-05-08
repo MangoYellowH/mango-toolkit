@@ -1,2 +1,1 @@
-import '../src/styles/themes/storybook/theme.scss'
-
+import '../src/styles/themes/storybook/theme.scss';

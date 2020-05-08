@@ -20,11 +20,13 @@ describe('Input Component', () => {
         placeholder={inputPlaceHolder}
       />,
     );
-    const element = queryByPlaceholderText(inputPlaceHolder) as HTMLInputElement;
+    const element = queryByPlaceholderText(
+      inputPlaceHolder,
+    ) as HTMLInputElement;
 
     expect(element).toHaveClass(inputClass);
 
-    expect((element.value)).toBe(inputValue);
+    expect(element.value).toBe(inputValue);
 
     fireEvent.change(element, { target: { value: inputValueChanged } });
 
