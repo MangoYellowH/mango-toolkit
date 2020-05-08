@@ -5,18 +5,26 @@ $sk-blue: $blue6;
 
 $sk-red: $red7;
 
+$sk-gray: $gray8;
+
 
 // primary mapping
 
 $background-color: $sk-white;
 
+$font-color: $sk-gray;
 $font-color-white: $sk-white;
 
 $button-default-color: $sk-blue;
 $button-primary-color: $sk-blue;
 $button-error-color: $sk-red;
 
+$input-border-color: $gray5;
+
 // secondary
 $button-default-hover: $gray2;
 $button-primary-hover: $blue7;
 $button-error-hover: $red8;
+
+$input-placeholder-color: $gray6;
+$input-focus-border-color: $sk-blue;

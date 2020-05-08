@@ -3,21 +3,27 @@ $mg-white: $gray1;
 $mg-yellow: $yellow6;
 $mg-lime: $lime7;
 $mg-red: $orange8;
+$mg-grey: $gray7;
 
 
 // primary mapping
 $background-color: $mg-white;
 
+$font-color: $gray8;
 $font-color-white: $mg-white;
 
 $button-default-color: $mg-yellow;
 $button-primary-color: $mg-lime;
 $button-error-color: $mg-red;
 
+$input-border-color: $mg-yellow;
 
 // secondary
 $button-default-hover: $yellow7;
 $button-primary-hover: $lime8;
 $button-error-hover: $orange9;
+
+$input-placeholder-color: $gray5;
+$input-focus-border-color: $yellow7;
 
 

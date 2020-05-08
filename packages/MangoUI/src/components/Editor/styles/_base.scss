@@ -1,0 +1,31 @@
+@import '~draft-js/dist/Draft.css';
+
+$editor-border-color: black !default;
+$editor-border-radius: 2px !default;
+$editor-border-color-focus: green !default;
+
+$editor-placeholder-color: red !default;
+
+$editor-color: grey !default;
+$editor-background-color: #f1f1f1 !default;
+
+
+.Editor {
+  @include inputText;
+  border: 1px solid $editor-border-color;
+  margin: 2 px;
+  border-radius: $editor-border-radius;
+  color: $editor-color;
+  padding: 0.5rem;
+  background-color: $editor-background-color;
+  display: flex;
+
+  .public-DraftEditorPlaceholder-root {
+    color: $editor-placeholder-color;
+    font-style: italic;
+  }
+
+  &:focus, &:hover {
+    border-color: $editor-border-color-focus;
+  }
+}

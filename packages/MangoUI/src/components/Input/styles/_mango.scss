@@ -1,0 +1,15 @@
+$input-border-radius: 6px;
+$input-border-color: $input-border-color;
+$input-border-color-focus: $input-focus-border-color;
+
+$input-color: $font-color;
+$input-placeholder-color: $input-placeholder-color;
+$input-background-color: $background-color;
+
+@import './base';
+
+input[type~="text"] {
+  &:focus, &:hover {
+    @include shadow;
+  }
+}
