@@ -1,17 +1,21 @@
 {
-  "name": "mangoui",
-  "version": "1.0.0",
+  "name": "@mango-solution/mangoui",
+  "version": "0.0.1",
   "description": "React based on Functional Component",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "start": "start-storybook",
+    "prepublish": "rm -rf dist && tsc && cp -rip src/styles dist/styles",
     "lint": "tsc --noEmit && eslint . --ext .ts,.tsx --fix",
     "test": "jest --passWithNoTests",
     "test-watch": "jest --watchAll"
   },
   "repository": "git+https://github.com/MangoYellowH/MangoUI.git",
   "author": "huangyuan3h <huangyuan3h@gmail.com>",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/MangoYellowH/MangoUI/issues"
   },
