@@ -1,0 +1,14 @@
+{
+  "name": "@mango-solution/mango-toolkit",
+  "version": "0.0.1",
+  "description": "the collection of mango solution",
+  "main": "index.js",
+  "repository": "git@github.com:MangoYellowH/mango-toolkit.git",
+  "author": "huangyuan3h <huangyuan3h@gmail.com>",
+  "license": "MIT",
+  "scripts": {},
+  "private": false,
+  "devDependencies": {
+    "lerna": "^3.20.2"
+  }
+}
