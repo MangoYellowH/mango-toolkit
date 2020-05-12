@@ -11,7 +11,8 @@
     "test": "lerna run test",
     "lint": "lerna run lint",
     "storybook": "lerna run start --scope=@mango-solution/mango-ui --parallel",
-    "install": "lerna bootstrap"
+    "install": "lerna bootstrap",
+    "version:patch": "lerna version patch --conventional-commits --yes"
   },
   "private": false,
   "devDependencies": {
