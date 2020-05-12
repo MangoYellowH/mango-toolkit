@@ -1,5 +1,5 @@
 {
-  "name": "@mango-solution/mangoui",
+  "name": "@mango-solution/mango-ui",
   "version": "0.0.1",
   "description": "React based on Functional Component",
   "main": "dist/index.js",
@@ -13,13 +13,8 @@
     "test": "jest --passWithNoTests",
     "test-watch": "jest --watchAll"
   },
-  "repository": "git+https://github.com/MangoYellowH/MangoUI.git",
   "author": "huangyuan3h <huangyuan3h@gmail.com>",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/MangoYellowH/MangoUI/issues"
-  },
-  "homepage": "https://github.com/MangoYellowH/MangoUI#readme",
   "devDependencies": {
     "@babel/core": "^7.9.0",
     "@storybook/addon-info": "^5.3.17",
