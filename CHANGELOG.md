@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+
+
+**Note:** Version bump only for package @mango-solution/mango-toolkit
+
+
+
+
+
 ## 0.0.1 (2020-05-12)
 
 **Note:** Version bump only for package @mango-solution/mango-toolkit
