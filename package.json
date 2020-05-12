@@ -6,7 +6,13 @@
   "repository": "git@github.com:MangoYellowH/mango-toolkit.git",
   "author": "huangyuan3h <huangyuan3h@gmail.com>",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "bootstrap": "lerna bootstrap",
+    "test": "lerna run test",
+    "lint": "lerna run lint",
+    "storybook": "lerna run start --scope=@mango-solution/mango-ui --parallel",
+    "install": "lerna bootstrap"
+  },
   "private": false,
   "devDependencies": {
     "lerna": "^3.20.2"
