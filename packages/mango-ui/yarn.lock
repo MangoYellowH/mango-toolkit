@@ -1295,6 +1295,11 @@
     "@types/yargs" "^15.0.0"
     chalk "^3.0.0"
 
+"@mango-solution/eslint-config@^0.0.2":
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/@mango-solution/eslint-config/-/eslint-config-0.0.2.tgz#8db953fff1a2193d58e943fe0b586ceae44783cb"
+  integrity sha512-AVkk692sH9D5919+Ort8rR/r89O9djlpFWgvTixVmZS3W6K5USVrPmzrgR1KDcVYByPe0E+vp3xrqIXkEJAs4g==
+
 "@mrmlnc/readdir-enhanced@^2.2.1":
   version "2.2.1"
   resolved "https://registry.yarnpkg.com/@mrmlnc/readdir-enhanced/-/readdir-enhanced-2.2.1.tgz#524af240d1a360527b730475ecfa1344aa540dde"
