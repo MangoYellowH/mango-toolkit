@@ -1,0 +1,25 @@
+{
+  "name": "@mango-solution/eslint-config",
+  "version": "0.0.0",
+  "description": "eslint shared config",
+  "keywords": [
+    "eslint"
+  ],
+  "author": "huangyuan3h <huangyuan3h@gmail.com>",
+  "homepage": "https://github.com/MangoYellowH/mango-toolkit#readme",
+  "license": "MIT",
+  "main": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "index.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MangoYellowH/mango-toolkit.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MangoYellowH/mango-toolkit/issues"
+  }
+}
