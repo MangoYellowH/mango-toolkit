@@ -1,0 +1,18 @@
+@import '~rfs/scss';
+
+$font-family: Arial, Helvetica, sans-serif !default;
+
+@mixin buttonText {
+  @include font-size(0.875rem !important); // 14px
+  font-weight: 500;
+  font-family: $font-family;
+  line-height: 1;
+  letter-spacing: 0.045rem;
+}
+
+@mixin inputText {
+  @include font-size(1rem !important); // 16px
+  font-weight: 500;
+  font-family: $font-family;
+  line-height: 1;
+}

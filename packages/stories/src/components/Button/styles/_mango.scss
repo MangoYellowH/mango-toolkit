@@ -1,0 +1,18 @@
+$button-default-border-color: transparent;
+$button-default-font-color: $font-color-white;
+$button-default-background-color: $button-default-color;
+$button-default-hover-color: $button-default-hover;
+
+$button-primary-border-color: transparent;
+$button-primary-font-color: $font-color-white;
+$button-primary-background-color: $button-primary-color;
+$button-primary-hover-color: $button-primary-hover;
+
+$button-error-border-color: transparent;
+$button-error-font-color: $font-color-white;
+$button-error-background-color: $button-error-color;
+$button-error-hover-color: $button-error-hover;
+
+$button-border-radius: 8px !default;
+
+@import './base';
