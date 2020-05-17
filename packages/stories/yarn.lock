@@ -1377,10 +1377,26 @@
     "@types/yargs" "^15.0.0"
     chalk "^3.0.0"
 
-"@mango-solution/eslint-config@^0.0.3":
+"@mango-solution/eslint-config@^0.0.4":
   version "0.0.4"
   resolved "https://registry.yarnpkg.com/@mango-solution/eslint-config/-/eslint-config-0.0.4.tgz#9fd0056fd3ab0473df423d629e34dab7c8da1413"
   integrity sha512-uqMoiEJqWiXF+X/tbXNXGWdO7QnmP/xZmKM+RlQ2KjRuwTSKDXqmxxDIdaxYuVEzHll/ecZKIh5VueqI1V0QEA==
+
+"@mango-solution/mango-ui@^0.0.3":
+  version "0.0.4"
+  resolved "https://registry.yarnpkg.com/@mango-solution/mango-ui/-/mango-ui-0.0.4.tgz#cb83e6d3f084343baaf351a82c21f11fbba8dc5e"
+  integrity sha512-Mhg54gXWhBDvbImWxn+TdgPaZMMZUeVUr03uTl5C8ZK9T8RuMhXdxt6HmtoPdzvF+SxL5g588Qom4G/jBLBRbw==
+  dependencies:
+    "@storybook/addon-actions" "^5.3.17"
+    "@storybook/addon-knobs" "^5.3.17"
+    "@storybook/react" "^5.3.17"
+    "@testing-library/jest-dom" "^5.3.0"
+    "@testing-library/react" "^10.0.2"
+    "@types/draft-js" "^0.10.38"
+    clsx "^1.1.0"
+    draft-js "^0.11.5"
+    react "^16.13.1"
+    react-dom "^16.13.1"
 
 "@mrmlnc/readdir-enhanced@^2.2.1":
   version "2.2.1"
