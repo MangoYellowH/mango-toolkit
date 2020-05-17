@@ -1,13 +1,13 @@
 import React, { ReactElement, ReactNode } from 'react';
 import clsx from 'clsx';
 
-enum ButtonType {
+export enum ButtonType {
   default = 'default',
   primary = 'primary',
   error = 'error',
 }
 
-interface ButtonProps {
+export interface ButtonProps {
   type?: string | ButtonType;
   classes?: string | string[];
   disabled?: boolean;
@@ -15,7 +15,7 @@ interface ButtonProps {
   children: ReactNode;
 }
 
-const Button: React.FC<ButtonProps> = ({
+export const Button: React.FC<ButtonProps> = ({
   children,
   onClick,
   type = 'default',

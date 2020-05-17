@@ -2,14 +2,14 @@ import React, { ReactElement } from 'react';
 import { Editor as BaseEditor, EditorState } from 'draft-js';
 import clsx from 'clsx';
 
-interface EditorProps {
+export interface EditorProps {
   classes?: string | string[];
   editorState: EditorState;
   placeholder?: string;
   onChange: (state: EditorState) => void;
 }
 
-const Editor: React.FC<EditorProps> = ({
+export const Editor: React.FC<EditorProps> = ({
   classes,
   onChange,
   editorState,

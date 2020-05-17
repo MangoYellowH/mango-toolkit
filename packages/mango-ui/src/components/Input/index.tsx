@@ -1,7 +1,7 @@
 import React, { ReactElement } from 'react';
 import clsx from 'clsx';
 
-interface InputProps {
+export interface InputProps {
   type?: string;
   classes?: string | string[];
   placeholder?: string;
@@ -9,7 +9,7 @@ interface InputProps {
   onChange: (value: string) => void;
 }
 
-const Input: React.FC<InputProps> = ({
+export const Input: React.FC<InputProps> = ({
   type = 'text',
   classes,
   placeholder,
