@@ -1,9 +1,9 @@
 import React, { ReactElement } from 'react';
 import { EditorState } from 'draft-js';
 import { text } from '@storybook/addon-knobs';
+import { Editor } from '@mango-solution/mango-ui';
 import Mango from '../../HOC/WithTheme/Mango';
 import Skyline from '../../HOC/WithTheme/Skyline';
-import Editor from './index';
 
 export default {
   title: 'Components/Editor',

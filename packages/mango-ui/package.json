@@ -8,7 +8,10 @@
   ],
   "scripts": {
     "start": "start-storybook",
-    "build": "rm -rf ./dist && tsc && cp -rip ./src/styles ./dist/styles",
+    "clean": "rm -rf ./dist",
+    "build:js": "tsc",
+    "build:scss": "cd src && find . -name '*.scss' | cpio -updm ../dist && cd ..",
+    "build": "npm run clean && npm run build:js && npm run build:scss",
     "lint": "tsc --noEmit && eslint . --ext .ts,.tsx --fix",
     "test": "jest --passWithNoTests",
     "test-watch": "jest --watchAll"

@@ -1,9 +1,9 @@
 import React, { ReactElement } from 'react';
 import { text } from '@storybook/addon-knobs';
 import { action } from '@storybook/addon-actions';
+import { Button } from '@mango-solution/mango-ui';
 import Mango from '../../HOC/WithTheme/Mango';
 import Skyline from '../../HOC/WithTheme/Skyline';
-import Button from './index';
 
 export default {
   title: 'Components/Button',

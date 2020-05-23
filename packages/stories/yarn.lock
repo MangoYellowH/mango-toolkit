@@ -1382,10 +1382,10 @@
   resolved "https://registry.yarnpkg.com/@mango-solution/eslint-config/-/eslint-config-0.0.4.tgz#9fd0056fd3ab0473df423d629e34dab7c8da1413"
   integrity sha512-uqMoiEJqWiXF+X/tbXNXGWdO7QnmP/xZmKM+RlQ2KjRuwTSKDXqmxxDIdaxYuVEzHll/ecZKIh5VueqI1V0QEA==
 
-"@mango-solution/mango-ui@^0.0.3":
-  version "0.0.4"
-  resolved "https://registry.yarnpkg.com/@mango-solution/mango-ui/-/mango-ui-0.0.4.tgz#cb83e6d3f084343baaf351a82c21f11fbba8dc5e"
-  integrity sha512-Mhg54gXWhBDvbImWxn+TdgPaZMMZUeVUr03uTl5C8ZK9T8RuMhXdxt6HmtoPdzvF+SxL5g588Qom4G/jBLBRbw==
+"@mango-solution/mango-ui@^0.0.6":
+  version "0.0.6"
+  resolved "https://registry.yarnpkg.com/@mango-solution/mango-ui/-/mango-ui-0.0.6.tgz#ca94ed6acf72bff1fbb3931d327eaca3cf47fdd1"
+  integrity sha512-mUgOJHt/c/2opJ1tcoGYzgCBCluNZM3poWh8MvxXKbCC/dDlDRs9zcjBt5GUIgRht3ct8RBHiCXtlKew5izi/Q==
   dependencies:
     "@storybook/addon-actions" "^5.3.17"
     "@storybook/addon-knobs" "^5.3.17"
