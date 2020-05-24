@@ -12,7 +12,7 @@
     "storybook": "lerna run start --scope=@mango-solution/mango-ui --parallel",
     "install": "lerna bootstrap",
     "version": "lerna version patch --conventional-commits --yes",
-    "publish": "lerna publish",
+    "publish": "lerna publish from-package --yes",
     "diff": "lerna diff"
   },
   "private": false,
