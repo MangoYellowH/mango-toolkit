@@ -7,7 +7,6 @@
     "dist"
   ],
   "scripts": {
-    "start": "start-storybook",
     "clean": "rm -rf ./dist",
     "build:js": "tsc",
     "build:scss": "cd src && find . -name '*.scss' | cpio -updm ../dist && cd ..",
@@ -78,5 +77,6 @@
       "npm run lint",
       "git add"
     ]
-  }
+  },
+  "gitHead": "3b311a815734c5360639d222c9d5d1219d7e078d"
 }
