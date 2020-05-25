@@ -11,6 +11,7 @@
     "build:js": "tsc",
     "build:scss": "cd src && find . -name '*.scss' | cpio -updm ../dist && cd ..",
     "build": "npm run clean && npm run build:js && npm run build:scss",
+    "prepublish": "npm run build",
     "lint": "tsc --noEmit && eslint . --ext .ts,.tsx --fix",
     "test": "jest --passWithNoTests",
     "test-watch": "jest --watchAll"
@@ -78,5 +79,5 @@
       "git add"
     ]
   },
-  "gitHead": "3b311a815734c5360639d222c9d5d1219d7e078d"
+  "gitHead": "871cb6360bcf35951202bf3801586c39a0974498"
 }

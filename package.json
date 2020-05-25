@@ -9,7 +9,7 @@
   "scripts": {
     "test": "lerna run test --parallel",
     "lint": "lerna run lint --parallel",
-    "storybook": "lerna run start --scope=@mango-solution/mango-ui --parallel",
+    "storybook": "lerna run start --scope=@mango-solution/stories",
     "install": "lerna bootstrap",
     "version": "lerna version patch --conventional-commits --yes",
     "publish": "lerna publish from-package --yes",
