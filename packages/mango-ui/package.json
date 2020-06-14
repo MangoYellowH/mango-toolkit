@@ -1,6 +1,6 @@
 {
   "name": "@mango-solution/mango-ui",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "React based on Functional Component",
   "main": "dist/index.js",
   "files": [
