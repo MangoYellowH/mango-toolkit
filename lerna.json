@@ -1,15 +1,9 @@
 {
-  "packages": [
-    "packages/*"
-  ],
+  "packages": ["packages/*"],
   "version": "independent",
   "npmClient": "yarn",
   "command": {
-    "ignoreChanges": [
-      "*.test.*",
-      "*.spec.*",
-      "*.md"
-    ],
+    "ignoreChanges": ["*.test.*", "*.spec.*", "*.md"],
     "verison": {
       "exact": true
     }
