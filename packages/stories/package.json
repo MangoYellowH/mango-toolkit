@@ -72,6 +72,6 @@
       "git add"
     ]
   },
-  "private": false,
-  "gitHead": "a84edd67723eee635e8b5dd6f2691cac01f96af9"
+  "private": true,
+  "gitHead": "7737c55173f775833d8c184a164da0c474282140"
 }
