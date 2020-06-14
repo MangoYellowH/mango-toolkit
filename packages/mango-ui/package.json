@@ -17,6 +17,11 @@
     "test-watch": "jest --watchAll"
   },
   "author": "huangyuan3h <huangyuan3h@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MangoYellowH/mango-toolkit.git"
+  },
+  "homepage": "https://github.com/MangoYellowH/mango-toolkit/blob/master/packages/mango-ui/README.md",
   "license": "MIT",
   "devDependencies": {
     "@mango-solution/eslint-config": "^0.0.4",
