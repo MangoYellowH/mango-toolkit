@@ -21,9 +21,17 @@ module.exports = {
   },
   rules: {
     'prettier/prettier': 'error',
+    'react/jsx-props-no-spreading': 'off',
     'import/no-extraneous-dependencies': [
       'error',
-      { devDependencies: ['*.test.*', '*.spec.*'] },
+      {
+        devDependencies: [
+          '**/*.test.*',
+          '**/*.test.*',
+          'test/**',
+          '__test__/*',
+        ],
+      },
     ],
     'react/jsx-filename-extension': [
       'error',
