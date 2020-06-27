@@ -1,11 +1,10 @@
-import WitchClick, { WithClickType } from 'hoc/WithClick';
+import WitchClick from '../../hoc/WithClick';
+import { RadioBaseItemType } from './index';
 import React from 'react';
 import clsx from 'clsx';
 
-
-export interface RadioItemProps extends WithClickType {
+export interface RadioItemProps extends RadioBaseItemType {
   text: string;
-  active: boolean;
 }
 
 const RadioItem: React.FC<RadioItemProps> = ({
