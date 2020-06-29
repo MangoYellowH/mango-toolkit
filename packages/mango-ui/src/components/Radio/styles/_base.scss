@@ -1,0 +1,14 @@
+$input-border-color: black !default;
+$input-border-radius: 2px !default;
+$input-color: grey !default;
+
+.Radio {
+  display: flex;
+  justify-content: space-between;
+  .RadioItem {
+    border: 1px solid $input-border-color;
+    border-radius: $input-border-radius;
+    color: $input-color;
+    cursor: pointer;
+  }
+}

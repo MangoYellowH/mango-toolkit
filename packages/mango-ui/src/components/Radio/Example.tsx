@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Radio, { RadioItem } from './index';
 
-const Example: React.FC<{}> = () => {
+const Example: React.FC<unknown> = () => {
   const [value, setValue] = useState<string>('');
 
   return (
