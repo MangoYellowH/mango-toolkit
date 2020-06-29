@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.0.14](https://github.com/MangoYellowH/mango-toolkit/compare/@mango-solution/mango-ui@0.0.13...@mango-solution/mango-ui@0.0.14) (2020-06-29)
+
+**Note:** Version bump only for package @mango-solution/mango-ui
+
+
+
+
+
 ## [0.0.13](https://github.com/MangoYellowH/mango-toolkit/compare/@mango-solution/mango-ui@0.0.12...@mango-solution/mango-ui@0.0.13) (2020-06-27)
 
 **Note:** Version bump only for package @mango-solution/mango-ui
