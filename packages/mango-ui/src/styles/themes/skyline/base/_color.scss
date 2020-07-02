@@ -20,6 +20,10 @@ $button-error-color: $sk-red;
 
 $input-border-color: $gray5;
 
+$radio-border-color: $sk-blue;
+
+$radio-color: $sk-blue;
+
 // secondary
 $button-default-hover: $gray2;
 $button-primary-hover: $blue7;
@@ -27,3 +31,11 @@ $button-error-hover: $red8;
 
 $input-placeholder-color: $gray6;
 $input-focus-border-color: $sk-blue;
+
+$radio-background-hover-color: $yellow8;
+
+$radio-background-active-color: $yellow9;
+
+$radio-background-hover-color: $gray2;
+$radio-background-active-color: $sk-blue;
+$radio-active-color: $sk-white;
