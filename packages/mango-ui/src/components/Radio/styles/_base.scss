@@ -1,14 +1,29 @@
-$input-border-color: black !default;
-$input-border-radius: 2px !default;
-$input-color: grey !default;
+$radio-border-color: black !default;
+$radio-border-radius: 2px !default;
+$radio-color: grey !default;
+$radio-background-color: white !default;
+
+$radio-active-color: yellow !default;
+$radio-background-active-color: white !default;
+$radio-background-hover-color: white !default;
 
 .Radio {
   display: flex;
-  justify-content: space-between;
   .RadioItem {
-    border: 1px solid $input-border-color;
-    border-radius: $input-border-radius;
-    color: $input-color;
+    margin: 4px;
+    @include shadow;
+    padding: 0.5rem 1rem;
+    border: 1px solid $radio-border-color;
+    border-radius: $radio-border-radius;
+    color: $radio-color;
+    background-color: $radio-background-color;
     cursor: pointer;
+    &:hover {
+      background-color: $radio-background-hover-color;
+    }
+    &.active {
+      color: $radio-active-color;
+      background-color: $radio-background-active-color;
+    }
   }
 }

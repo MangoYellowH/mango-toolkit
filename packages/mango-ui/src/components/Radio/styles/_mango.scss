@@ -1,1 +1,11 @@
-@import './base';
+$radio-border-radius: 8px;
+$radio-color: $font-color-white;
+$radio-border-color: transparent;
+$radio-background-color: $radio-background-color;
+
+$radio-active-color: $font-color-white;
+$radio-background-active-color: $radio-background-active-color;
+
+$radio-background-hover-color: $radio-background-hover-color;
+
+@import "./base";
