@@ -8,7 +8,7 @@
   "license": "MIT",
   "scripts": {
     "test": "lerna run test --parallel",
-    "lint": "lerna run lint --parallel",
+    "lint": "lerna run lint --scope=@mango-solution/mango-ui",
     "start": "lerna run start --scope=@mango-solution/stories",
     "install": "lerna bootstrap",
     "version": "lerna version patch --conventional-commits --yes",
