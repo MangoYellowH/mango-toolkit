@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.0.7](https://github.com/MangoYellowH/mango-toolkit/compare/@mango-solution/eslint-config@0.0.6...@mango-solution/eslint-config@0.0.7) (2020-07-02)
+
+**Note:** Version bump only for package @mango-solution/eslint-config
+
+
+
+
+
 ## [0.0.6](https://github.com/MangoYellowH/mango-toolkit/compare/@mango-solution/eslint-config@0.0.5...@mango-solution/eslint-config@0.0.6) (2020-06-27)
 
 **Note:** Version bump only for package @mango-solution/eslint-config
