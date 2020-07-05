@@ -46,7 +46,6 @@
     "normalize.css": "^8.0.1",
     "prettier": "^2.0.5",
     "pretty-quick": "^2.0.1",
-    "rfs": "^9.0.2",
     "ts-jest": "^26.1.1",
     "ts-loader": "^7.0.5",
     "typescript": "^3.9.5"
@@ -56,6 +55,7 @@
     "clsx": "^1.1.1",
     "draft-js": "^0.11.6",
     "react": "^16.13.1",
+    "rfs": "^9.0.2",
     "react-dom": "^16.13.1"
   },
   "husky": {
