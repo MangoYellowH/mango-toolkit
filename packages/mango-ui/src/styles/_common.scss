@@ -1,7 +1,8 @@
-@import '~normalize.css/normalize.css';
-@import './functions/shadow';
-@import './variables/palette';
-@import './typography';
+@import "~normalize.css/normalize.css";
+@import "./functions/rem";
+@import "./functions/shadow";
+@import "./variables/palette";
+@import "./typography";
 
 * {
   outline: none;
