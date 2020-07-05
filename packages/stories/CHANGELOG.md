@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.0.16](https://github.com/MangoYellowH/mango-toolkit/compare/@mango-solution/stories@0.0.15...@mango-solution/stories@0.0.16) (2020-07-05)
+
+**Note:** Version bump only for package @mango-solution/stories
+
+
+
+
+
 ## [0.0.15](https://github.com/MangoYellowH/mango-toolkit/compare/@mango-solution/stories@0.0.14...@mango-solution/stories@0.0.15) (2020-07-05)
 
 **Note:** Version bump only for package @mango-solution/stories
