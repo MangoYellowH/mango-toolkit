@@ -1,6 +1,6 @@
 {
   "name": "@mango-solution/mango-ui",
-  "version": "0.0.16",
+  "version": "0.0.17",
   "description": "React based on Functional Component",
   "main": "dist/index.js",
   "files": [
@@ -53,10 +53,10 @@
     "@types/draft-js": "^0.10.41",
     "clsx": "^1.1.1",
     "draft-js": "^0.11.6",
+    "normalize.css": "^8.0.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "rfs": "^9.0.2",
-    "normalize.css": "^8.0.1"
+    "rfs": "^9.0.2"
   },
   "husky": {
     "hooks": {
