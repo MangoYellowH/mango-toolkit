@@ -6,14 +6,18 @@ import Input from './components/Input';
 
 import Radio from './components/Radio';
 
+import Header from './components/Header';
+
 export * from './components/Button';
 export * from './components/Editor';
 export * from './components/Input';
 export * from './components/Radio';
+export * from './components/Header';
 
 export default {
   Button,
   Editor,
   Input,
   Radio,
+  Header,
 };
