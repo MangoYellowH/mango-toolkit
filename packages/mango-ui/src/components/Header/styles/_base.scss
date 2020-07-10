@@ -1,0 +1,15 @@
+$header-max-width: rem(1280) !default;
+$header-background-color: blue !default;
+
+.header {
+  @include shadow;
+  height: rem(52);
+  width: 100%;
+  background-color: $header-background-color;
+  .header-content {
+    max-width: $header-max-width;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0 rem(16);
+  }
+}
