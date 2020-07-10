@@ -1,3 +1,16 @@
+$header-max-width: rem(1280) !default;
+$header-background-color: blue !default;
+
 .header {
-  height: rem(50);
+  @include shadow;
+  height: rem(52);
+  width: 100%;
+  background-color: $header-background-color;
+  .header-content {
+    max-width: $header-max-width;
+    height: 100%;
+    background-color: red;
+    margin: 0 auto;
+    padding: 0 rem(16);
+  }
 }

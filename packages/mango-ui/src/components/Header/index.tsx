@@ -6,8 +6,15 @@ export interface HeaderProps {
   classes: string | string[];
 }
 
-const Header: React.FC<HeaderProps> = ({ classes, children }: HeaderProps) => {
-  return <header className={clsx('header', classes)}>{children}</header>;
+export const Header: React.FC<HeaderProps> = ({
+  classes,
+  children,
+}: HeaderProps) => {
+  return (
+    <header className={clsx('header', classes)}>
+      <div className="header-content">{children}</div>
+    </header>
+  );
 };
 
 export default Header;
