@@ -3,7 +3,7 @@ import clsx from 'clsx';
 
 export interface HeaderProps {
   children: ReactNode;
-  classes: string | string[];
+  classes?: string | string[];
 }
 
 export const Header: React.FC<HeaderProps> = ({
