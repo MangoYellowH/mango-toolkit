@@ -1,6 +1,6 @@
 {
   "name": "@mango-solution/stories",
-  "version": "0.0.18",
+  "version": "0.0.19",
   "description": "React based on Functional Component",
   "scripts": {
     "start": "start-storybook",
