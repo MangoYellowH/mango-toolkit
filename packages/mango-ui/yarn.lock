@@ -479,10 +479,10 @@
     "@types/yargs" "^15.0.0"
     chalk "^4.0.0"
 
-"@mango-solution/eslint-config@^0.0.7":
-  version "0.0.7"
-  resolved "https://registry.yarnpkg.com/@mango-solution/eslint-config/-/eslint-config-0.0.7.tgz#5d1879683df98ead5edf945b9dc358e43a7e6d28"
-  integrity sha512-0ZWNjQq2U+FozsjN7RMdDsmzbqP9M0LDkuf64StoqgEcfCqWPFK7pt2qqZXwfNkrQyYbX+nzPcRsOMW7AOMDGg==
+"@mango-solution/eslint-config@^0.0.8":
+  version "0.0.8"
+  resolved "https://registry.yarnpkg.com/@mango-solution/eslint-config/-/eslint-config-0.0.8.tgz#88bb643ab229611ed712e0fb2f4470199182c755"
+  integrity sha512-F7Pg3oYAGT4bmnFfaUh6oJEsMDdNkSYy1PdQjqiIIIzcrymLnVupCIlMOvKKmixfjy664LGv57Zog00vN4Vkbg==
 
 "@sinonjs/commons@^1.7.0":
   version "1.8.0"
@@ -5142,9 +5142,9 @@ typescript@^3.9.5:
   integrity sha512-hSAifV3k+i6lEoCJ2k6R2Z/rp/H3+8sdmcn5NrS3/3kE7+RyZXm9aqvxWqjEXHAd8b0pShatpcdMTvEdvAJltQ==
 
 ua-parser-js@^0.7.18:
-  version "0.7.21"
-  resolved "https://registry.yarnpkg.com/ua-parser-js/-/ua-parser-js-0.7.21.tgz#853cf9ce93f642f67174273cc34565ae6f308777"
-  integrity sha512-+O8/qh/Qj8CgC6eYBVBykMrNtp5Gebn4dlGD/kKXVkJNDwyrAwSIqwz8CDf+tsAIWVycKcku6gIXJ0qwx/ZXaQ==
+  version "0.7.28"
+  resolved "https://registry.yarnpkg.com/ua-parser-js/-/ua-parser-js-0.7.28.tgz#8ba04e653f35ce210239c64661685bf9121dec31"
+  integrity sha512-6Gurc1n//gjp9eQNXjD9O3M/sMwVtN5S8Lv9bvOYBfKfDNiIIhqiyi01vMBO45u4zkDE420w/e0se7Vs+sIg+g==
 
 union-value@^1.0.0:
   version "1.0.1"
