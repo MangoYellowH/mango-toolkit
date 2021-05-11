@@ -479,10 +479,10 @@
     "@types/yargs" "^15.0.0"
     chalk "^4.0.0"
 
-"@mango-solution/eslint-config@^0.0.7":
-  version "0.0.7"
-  resolved "https://registry.yarnpkg.com/@mango-solution/eslint-config/-/eslint-config-0.0.7.tgz#5d1879683df98ead5edf945b9dc358e43a7e6d28"
-  integrity sha512-0ZWNjQq2U+FozsjN7RMdDsmzbqP9M0LDkuf64StoqgEcfCqWPFK7pt2qqZXwfNkrQyYbX+nzPcRsOMW7AOMDGg==
+"@mango-solution/eslint-config@^0.0.8":
+  version "0.0.8"
+  resolved "https://registry.yarnpkg.com/@mango-solution/eslint-config/-/eslint-config-0.0.8.tgz#88bb643ab229611ed712e0fb2f4470199182c755"
+  integrity sha512-F7Pg3oYAGT4bmnFfaUh6oJEsMDdNkSYy1PdQjqiIIIzcrymLnVupCIlMOvKKmixfjy664LGv57Zog00vN4Vkbg==
 
 "@sinonjs/commons@^1.7.0":
   version "1.8.0"
@@ -3422,9 +3422,9 @@ lodash.sortby@^4.7.0:
   integrity sha1-7dFMgk4sycHgsKG0K7UhBRakJDg=
 
 lodash@^4.17.13, lodash@^4.17.14, lodash@^4.17.15:
-  version "4.17.19"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.19.tgz#e48ddedbe30b3321783c5b4301fbd353bc1e4a4b"
-  integrity sha512-JNvd8XER9GQX0v2qJgsaN/mzFCNA5BRe/j8JN9d+tWyGLSodKQHKFicdwNYzWwI3wjRnaKPsGj1XkBjx/F96DQ==
+  version "4.17.21"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.21.tgz#679591c564c3bffaae8454cf0b3df370c3d6911c"
+  integrity sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==
 
 log-symbols@^4.0.0:
   version "4.0.0"
