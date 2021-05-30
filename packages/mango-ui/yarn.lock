@@ -479,10 +479,10 @@
     "@types/yargs" "^15.0.0"
     chalk "^4.0.0"
 
-"@mango-solution/eslint-config@^0.0.7":
-  version "0.0.7"
-  resolved "https://registry.yarnpkg.com/@mango-solution/eslint-config/-/eslint-config-0.0.7.tgz#5d1879683df98ead5edf945b9dc358e43a7e6d28"
-  integrity sha512-0ZWNjQq2U+FozsjN7RMdDsmzbqP9M0LDkuf64StoqgEcfCqWPFK7pt2qqZXwfNkrQyYbX+nzPcRsOMW7AOMDGg==
+"@mango-solution/eslint-config@^0.0.8":
+  version "0.0.8"
+  resolved "https://registry.yarnpkg.com/@mango-solution/eslint-config/-/eslint-config-0.0.8.tgz#88bb643ab229611ed712e0fb2f4470199182c755"
+  integrity sha512-F7Pg3oYAGT4bmnFfaUh6oJEsMDdNkSYy1PdQjqiIIIzcrymLnVupCIlMOvKKmixfjy664LGv57Zog00vN4Vkbg==
 
 "@sinonjs/commons@^1.7.0":
   version "1.8.0"
@@ -5350,9 +5350,9 @@ write@1.0.3:
     mkdirp "^0.5.1"
 
 ws@^7.2.3:
-  version "7.3.0"
-  resolved "https://registry.yarnpkg.com/ws/-/ws-7.3.0.tgz#4b2f7f219b3d3737bc1a2fbf145d825b94d38ffd"
-  integrity sha512-iFtXzngZVXPGgpTlP1rBqsUK82p9tKqsWRPg5L56egiljujJT3vGAYnHANvFxBieXrTFavhzhxW52jnaWV+w2w==
+  version "7.4.6"
+  resolved "https://registry.yarnpkg.com/ws/-/ws-7.4.6.tgz#5654ca8ecdeee47c33a9a4bf6d28e2be2980377c"
+  integrity sha512-YmhHDO4MzaDLB+M9ym/mDA5z0naX8j7SIlT8f8z+I0VtzsRbekxEutHSme7NPS2qE8StCYQNUnfWdXta/Yu85A==
 
 xml-name-validator@^3.0.0:
   version "3.0.0"
