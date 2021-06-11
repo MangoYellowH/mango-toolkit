@@ -479,10 +479,10 @@
     "@types/yargs" "^15.0.0"
     chalk "^4.0.0"
 
-"@mango-solution/eslint-config@^0.0.7":
-  version "0.0.7"
-  resolved "https://registry.yarnpkg.com/@mango-solution/eslint-config/-/eslint-config-0.0.7.tgz#5d1879683df98ead5edf945b9dc358e43a7e6d28"
-  integrity sha512-0ZWNjQq2U+FozsjN7RMdDsmzbqP9M0LDkuf64StoqgEcfCqWPFK7pt2qqZXwfNkrQyYbX+nzPcRsOMW7AOMDGg==
+"@mango-solution/eslint-config@^0.0.8":
+  version "0.0.8"
+  resolved "https://registry.yarnpkg.com/@mango-solution/eslint-config/-/eslint-config-0.0.8.tgz#88bb643ab229611ed712e0fb2f4470199182c755"
+  integrity sha512-F7Pg3oYAGT4bmnFfaUh6oJEsMDdNkSYy1PdQjqiIIIzcrymLnVupCIlMOvKKmixfjy664LGv57Zog00vN4Vkbg==
 
 "@sinonjs/commons@^1.7.0":
   version "1.8.0"
@@ -2265,9 +2265,9 @@ getpass@^0.1.1:
     assert-plus "^1.0.0"
 
 glob-parent@^5.0.0:
-  version "5.1.1"
-  resolved "https://registry.yarnpkg.com/glob-parent/-/glob-parent-5.1.1.tgz#b6c1ef417c4e5663ea498f1c45afac6916bbc229"
-  integrity sha512-FnI+VGOpnlGHWZxthPGR+QhR78fuiK0sNLkHQv+bL9fQi57lNNdquIbna/WrfROrolq8GK5Ek6BiMwqL/voRYQ==
+  version "5.1.2"
+  resolved "https://registry.yarnpkg.com/glob-parent/-/glob-parent-5.1.2.tgz#869832c58034fe68a4093c17dc15e8340d8401c4"
+  integrity sha512-AOIgSQCepiJYwP3ARnGx+5VnTu2HBYdzbGP45eLw1vr3zB3vZLeyed1sC9hnbcOc9/SrMyM5RPQrkGz4aS9Zow==
   dependencies:
     is-glob "^4.0.1"
 
