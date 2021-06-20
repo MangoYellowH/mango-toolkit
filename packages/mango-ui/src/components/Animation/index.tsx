@@ -1,5 +1,5 @@
 import clsx from 'clsx';
-import React, { useState } from 'react';
+import React from 'react';
 
 export enum AnimationType {
   spin = 'spin',
@@ -35,8 +35,6 @@ export const Animation: React.FC<AnimationProps> = ({
   onClick,
   onKeyDown,
 }: AnimationProps) => {
-  const state = useState<AnimationState>(animationState);
-
   const handleMouseOver = () => {
     if (onMouseOver) {
       onMouseOver();
@@ -69,7 +67,7 @@ export const Animation: React.FC<AnimationProps> = ({
 
   return (
     <div
-      className={clsx('animation', animationType, state, classes)}
+      className={clsx('animation', animationType, animationState, classes)}
       onMouseOver={handleMouseOver}
       onFocus={handleFocus}
       onMouseLeave={handleMouseLeave}
