@@ -2,7 +2,7 @@ import React, { ReactNode } from 'react';
 import clsx from 'clsx';
 
 export interface HeaderProps {
-  children: ReactNode;
+  children?: ReactNode;
   classes?: string | string[];
 }
 
