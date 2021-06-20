@@ -1,10 +1,4 @@
-$spin-font-color: red !default;
-
-.spin-animation {
-  color: $spin-font-color;
-  width: rem(60);
-  height: rem(60);
-  cursor: pointer;
+.animation.spin {
   &.initial {
     animation: none;
   }
