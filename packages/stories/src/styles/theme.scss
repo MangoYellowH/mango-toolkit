@@ -1,7 +1,7 @@
 div.mango {
-  @import '~@mango-solution/mango-ui/dist/styles/themes/mango/index.scss';
+  @import './mango_theme';
 }
 
 div.skyline {
-  @import '~@mango-solution/mango-ui/dist/styles/themes/skyline/index.scss';
+  @import './skyline_theme';
 }

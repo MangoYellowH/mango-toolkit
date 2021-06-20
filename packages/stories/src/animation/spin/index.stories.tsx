@@ -1,16 +1,20 @@
 import React, { ReactElement } from 'react';
+import SettingIcon from '@mango-solution/svg/setting.svg';
 import Mango from '../../HOC/WithTheme/Mango';
 import Skyline from '../../HOC/WithTheme/Skyline';
-import { Header } from '@mango-solution/mango-ui';
 
 export default {
   title: 'Animation/spin',
 };
 
-const HeaderStory = (): ReactElement => {
-  return <Header />;
+const SpinComponent = (): ReactElement => {
+  return (
+    <div className="spin-animation">
+      <SettingIcon />
+    </div>
+  );
 };
 
-export const mango = Mango<{}>(HeaderStory);
+export const mango = Mango<{}>(SpinComponent);
 
-export const skyline = Skyline<{}>(HeaderStory);
+export const skyline = Skyline<{}>(SpinComponent);

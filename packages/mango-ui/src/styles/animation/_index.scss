@@ -1,1 +1,5 @@
-@import "./_spin";
+@import './_spin';
+
+@mixin animation($animationName, $time: 1s) {
+  animation: $animationName $time;
+}
