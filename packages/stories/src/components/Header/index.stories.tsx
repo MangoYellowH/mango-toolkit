@@ -1,7 +1,7 @@
 import React, { ReactElement } from 'react';
+import { Header } from '@mango-solution/mango-ui';
 import Mango from '../../HOC/WithTheme/Mango';
 import Skyline from '../../HOC/WithTheme/Skyline';
-import { Header } from '@mango-solution/mango-ui';
 
 export default {
   title: 'Components/Header',
