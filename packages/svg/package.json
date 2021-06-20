@@ -1,9 +1,10 @@
 {
   "name": "@mango-solution/svg",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "shared svg files",
   "keywords": [
-    "svg", "icon"
+    "svg",
+    "icon"
   ],
   "author": "huangyuan3h <huangyuan3h@gmail.com>",
   "homepage": "https://github.com/MangoYellowH/mango-toolkit#readme",
