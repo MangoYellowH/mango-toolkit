@@ -14,8 +14,14 @@ export enum AnimationState {
 export interface AnimationProps {
   animationType?: AnimationType;
   animationState?: AnimationState;
+
   children?: React.ReactNode;
   classes?: string | string[];
+  onMouseOver?: () => void;
+  onFocus?: () => void;
+  onMouseLeave?: () => void;
+  onClick?: () => void;
+  onKeyDown?: () => void;
 }
 
 export const Animation: React.FC<AnimationProps> = ({
@@ -23,11 +29,55 @@ export const Animation: React.FC<AnimationProps> = ({
   animationState = AnimationState.initial,
   classes,
   children,
+  onMouseOver,
+  onFocus,
+  onMouseLeave,
+  onClick,
+  onKeyDown,
 }: AnimationProps) => {
   const state = useState<AnimationState>(animationState);
 
+  const handleMouseOver = () => {
+    if (onMouseOver) {
+      onMouseOver();
+    }
+  };
+
+  const handleFocus = () => {
+    if (onFocus) {
+      onFocus();
+    }
+  };
+
+  const handleMouseLeave = () => {
+    if (onMouseLeave) {
+      onMouseLeave();
+    }
+  };
+
+  const handleClick = () => {
+    if (onClick) {
+      onClick();
+    }
+  };
+
+  const handleKeyDown = () => {
+    if (onKeyDown) {
+      onKeyDown();
+    }
+  };
+
   return (
-    <div className={clsx('animation', animationType, state, classes)}>
+    <div
+      className={clsx('animation', animationType, state, classes)}
+      onMouseOver={handleMouseOver}
+      onFocus={handleFocus}
+      onMouseLeave={handleMouseLeave}
+      onClick={handleClick}
+      onKeyDown={handleKeyDown}
+      role="button"
+      tabIndex={0}
+    >
       {children}
     </div>
   );

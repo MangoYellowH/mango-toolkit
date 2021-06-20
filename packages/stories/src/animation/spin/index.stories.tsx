@@ -8,9 +8,10 @@ export default {
   title: 'Animation/spin',
 };
 
-const SpinComponent = (): ReactElement => {
+const SpinComponent: React.FC<{}> = (): ReactElement => {
+  // const [state, setState] = useState<AnimationState>(AnimationState.initial);
   return (
-    <Animation>
+    <Animation classes="spin-animation">
       <SettingIcon />
     </Animation>
   );
