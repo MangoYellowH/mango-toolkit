@@ -1,11 +1,4 @@
 # `@mango-solution/svg`
 
-> eslint shared file, the configure for typescript react project
+> all used svg defined here
 
-## Usage
-
-```
-const eslintConfig = require('@mango-solution/eslint-config');
-
-// TODO: DEMONSTRATE API
-```
