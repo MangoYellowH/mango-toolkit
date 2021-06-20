@@ -1,5 +1,6 @@
 import React, { ReactElement } from 'react';
 import SettingIcon from '@mango-solution/svg/setting.svg';
+import { Animation } from '@mango-solution/mango-ui';
 import Mango from '../../HOC/WithTheme/Mango';
 import Skyline from '../../HOC/WithTheme/Skyline';
 
@@ -9,9 +10,9 @@ export default {
 
 const SpinComponent = (): ReactElement => {
   return (
-    <div className="spin-animation">
+    <Animation>
       <SettingIcon />
-    </div>
+    </Animation>
   );
 };
 

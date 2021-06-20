@@ -10,6 +10,7 @@
     "test": "lerna run test --parallel",
     "lint": "lerna run lint --scope=@mango-solution/mango-ui",
     "start": "lerna run start --scope=@mango-solution/stories",
+    "link": "lerna link",
     "install": "lerna bootstrap",
     "version": "lerna version patch --conventional-commits --yes",
     "publish": "lerna publish from-package --yes",

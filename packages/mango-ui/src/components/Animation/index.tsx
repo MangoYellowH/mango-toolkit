@@ -15,17 +15,21 @@ export interface AnimationProps {
   animationType?: AnimationType;
   animationState?: AnimationState;
   children?: React.ReactNode;
+  classes?: string | string[];
 }
 
 export const Animation: React.FC<AnimationProps> = ({
   animationType = AnimationType.spin,
   animationState = AnimationState.initial,
+  classes,
   children,
 }: AnimationProps) => {
   const state = useState<AnimationState>(animationState);
 
   return (
-    <div className={clsx('animation', animationType, state)}>{children}</div>
+    <div className={clsx('animation', animationType, state, classes)}>
+      {children}
+    </div>
   );
 };
 
