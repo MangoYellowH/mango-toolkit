@@ -8,11 +8,14 @@ import Radio from './components/Radio';
 
 import Header from './components/Header';
 
+import Animation from './components/Animation';
+
 export * from './components/Button';
 export * from './components/Editor';
 export * from './components/Input';
 export * from './components/Radio';
 export * from './components/Header';
+export * from './components/Animation';
 
 export default {
   Button,
@@ -20,4 +23,5 @@ export default {
   Input,
   Radio,
   Header,
+  Animation,
 };

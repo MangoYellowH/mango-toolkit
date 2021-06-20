@@ -1,0 +1,20 @@
+@mixin animation($activeName, $inactiveName, $time: 1s) {
+  &.initial {
+    animation: none;
+    animation-duration: unset;
+  }
+
+  &.active {
+    animation-name: $activeName;
+    animation-duration: $time;
+  }
+
+  &.inactive {
+    animation-name: $inactiveName;
+    animation-duration: $time;
+  }
+}
+
+.animation.spin {
+  @include animation(spin, spin-back, 1s);
+}

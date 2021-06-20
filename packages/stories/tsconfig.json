@@ -21,7 +21,8 @@
     "declaration": true,
     "allowSyntheticDefaultImports": true,
     "experimentalDecorators": true,
-    "emitDecoratorMetadata": true
+    "emitDecoratorMetadata": true,
+    "skipLibCheck": true
   },
   "files": ["./src/types/index.d.ts"],
   "include": ["src/**/*"],

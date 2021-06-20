@@ -1,7 +1,7 @@
 import React, { ReactElement, useState } from 'react';
+import { Radio, RadioItem } from '@mango-solution/mango-ui';
 import Mango from '../../HOC/WithTheme/Mango';
 import Skyline from '../../HOC/WithTheme/Skyline';
-import { Radio, RadioItem } from '@mango-solution/mango-ui';
 
 export default {
   title: 'Components/Radio',

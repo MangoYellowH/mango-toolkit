@@ -1,6 +1,6 @@
 {
   "name": "@mango-solution/mango-ui",
-  "version": "0.0.24",
+  "version": "0.0.29",
   "description": "React based on Functional Component",
   "main": "dist/index.js",
   "files": [
@@ -24,7 +24,7 @@
   "homepage": "https://github.com/MangoYellowH/mango-toolkit/blob/master/packages/mango-ui/README.md",
   "license": "MIT",
   "devDependencies": {
-    "@mango-solution/eslint-config": "^0.0.8",
+    "@mango-solution/eslint-config": "^0.0.9",
     "@testing-library/jest-dom": "^5.11.0",
     "@testing-library/react": "^10.4.3",
     "@types/events": "^3.0.0",
