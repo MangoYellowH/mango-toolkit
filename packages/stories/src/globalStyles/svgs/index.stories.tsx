@@ -3,7 +3,7 @@ import React from 'react';
 import LeftIcon from './svg/left.svg';
 
 export default {
-  title: 'Other/SVG',
+  title: 'Global Styles/SVG',
 };
 
 export const Left: React.FC<{}> = (): React.ReactElement => (
