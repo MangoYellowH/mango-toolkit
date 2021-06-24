@@ -1,0 +1,13 @@
+.typograph-area {
+  .header-text {
+    @include titleText;
+  }
+
+  .body-text {
+    @include bodyText;
+  }
+
+  .button-text {
+    @include buttonText;
+  }
+}

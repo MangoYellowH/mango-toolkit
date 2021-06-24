@@ -8,10 +8,10 @@ export default {
 };
 
 const Typograph: React.FC<{}> = (): React.ReactElement => (
-  <div style={{ width: '200px' }}>
-    <div>header</div>
-    <div>body</div>
-    <div className=""> button text</div>
+  <div style={{ width: '200px' }} className="typograph-area">
+    <div className="header-text">header</div>
+    <div className="body-text">body</div>
+    <div className="button-text">button text</div>
   </div>
 );
 

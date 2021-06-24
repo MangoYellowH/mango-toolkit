@@ -4,13 +4,10 @@ $editor-border-color: black !default;
 $editor-border-radius: 2px !default;
 $editor-border-color-focus: green !default;
 
-$editor-placeholder-color: red !default;
-
-$editor-color: grey !default;
 $editor-background-color: #f1f1f1 !default;
 
 .Editor {
-  @include inputText;
+  @include bodyText;
   border: 1px solid $editor-border-color;
   margin: 2 px;
   border-radius: $editor-border-radius;
@@ -20,8 +17,7 @@ $editor-background-color: #f1f1f1 !default;
   display: flex;
 
   .public-DraftEditorPlaceholder-root {
-    color: $editor-placeholder-color;
-    font-style: italic;
+    @include placeholderText;
   }
 
   &:focus,
