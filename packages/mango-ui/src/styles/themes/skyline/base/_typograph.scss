@@ -1,3 +1,7 @@
+@mixin bannerText {
+  @include fontBase(20px, $font-color-white);
+}
+
 @mixin titleText {
   @include fontBase(18px, $font-color-white);
 }

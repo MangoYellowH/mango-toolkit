@@ -1,6 +1,14 @@
+$typograph-background-color: grey !default;
+
 .typograph-area {
+  .banner-text {
+    @include bannerText;
+    background-color: $typograph-background-color;
+  }
+
   .header-text {
     @include titleText;
+    background-color: $typograph-background-color;
   }
 
   .body-text {
