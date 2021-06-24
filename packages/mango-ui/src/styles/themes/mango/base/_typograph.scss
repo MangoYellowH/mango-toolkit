@@ -1,0 +1,17 @@
+@mixin titleText {
+  @include fontBase(18px, $font-color-white);
+}
+
+@mixin bodyText {
+  @include fontBase(16px, $font-color);
+}
+
+@mixin buttonText {
+  @include fontBase(14px);
+  letter-spacing: 0.045rem;
+}
+
+@mixin placeholderText {
+  @include fontBase(16px, $input-placeholder-color);
+  font-style: italic;
+}
