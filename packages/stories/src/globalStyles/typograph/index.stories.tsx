@@ -11,6 +11,7 @@ const Typograph: React.FC<{}> = (): React.ReactElement => (
   <div style={{ width: '200px' }}>
     <div>header</div>
     <div>body</div>
+    <div className=""> button text</div>
   </div>
 );
 

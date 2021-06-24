@@ -1,22 +1,18 @@
 $input-border-radius: 2px !default;
 $input-border-color: black !default;
 $input-border-color-focus: green !default;
-$input-placeholder-color: red !default;
-$input-color: grey !default;
 $input-background-color: #f1f1f1 !default;
 
 input[type~='text'] {
-  @include inputText;
+  @include bodyText;
   border: 1px solid $input-border-color;
   margin: 2 px;
   border-radius: $input-border-radius;
-  color: $input-color;
   height: 2rem;
   padding: 0.5rem;
   background-color: $input-background-color;
   &::placeholder {
-    color: $input-placeholder-color;
-    font-style: italic;
+    @include placeholderText;
   }
   &:focus,
   &:hover {
