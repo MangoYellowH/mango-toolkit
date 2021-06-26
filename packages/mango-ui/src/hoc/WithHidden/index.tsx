@@ -4,7 +4,7 @@ export interface WithHiddenType {
   hidden?: boolean;
 }
 
-const withHidden = <T extends WithHiddenType>() => (
+const withHidden = <T extends WithHiddenType>(
   Component: ComponentType<T>,
 ): ComponentType<T> => {
   const WrappedComponent: React.FC<T> = (props: T) => {
