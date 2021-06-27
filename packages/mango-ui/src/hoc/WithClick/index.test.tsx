@@ -1,6 +1,6 @@
 import React from 'react';
 import { render, cleanup, fireEvent } from '@testing-library/react';
-import WithClick, { appendClickEvent, WithClickType } from '.';
+import { WithClick, appendClickEvent, WithClickType } from '.';
 
 interface MockComponentType extends WithClickType {
   text: string;

@@ -1,7 +1,6 @@
 import React, { ReactElement, useState } from 'react';
 import Mango from '../../HOC/WithTheme/Mango';
 import Skyline from '../../HOC/WithTheme/Skyline';
-// import {Menu, MenuItem} from '@mango-solution/mango-ui';
 
 export default {
   title: 'Components/Menu',

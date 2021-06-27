@@ -80,5 +80,3 @@ export const Animation: React.FC<AnimationProps> = ({
     </div>
   );
 };
-
-export default Animation;

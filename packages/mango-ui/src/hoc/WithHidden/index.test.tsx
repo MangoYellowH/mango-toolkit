@@ -1,6 +1,6 @@
 import React from 'react';
 import { render, cleanup } from '@testing-library/react';
-import WithHidden, { WithHiddenType } from '.';
+import { WithHidden, WithHiddenType } from '.';
 
 describe('WithHidden Hoc', () => {
   beforeEach(cleanup);

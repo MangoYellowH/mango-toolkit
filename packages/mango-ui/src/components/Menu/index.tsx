@@ -1,8 +1,8 @@
 import clsx from 'clsx';
 import React from 'react';
-import WithHidden, { WithHiddenType } from '../../hoc/WithHidden';
+import { WithHidden, WithHiddenType } from '../../hoc/WithHidden';
 import { appendClickEvent } from '../../hoc/WithClick';
-import MenuItemBase, { MenuItemBaseProps } from './MenuItem';
+import { MenuItemBaseProps } from './MenuItem';
 
 export interface MenuProps extends WithHiddenType {
   onClick: (value?: string) => void;
@@ -10,7 +10,7 @@ export interface MenuProps extends WithHiddenType {
   classes?: string | string[];
 }
 
-const Menu: React.FC<MenuProps> = ({
+const MenuComponent: React.FC<MenuProps> = ({
   children,
   onClick,
   classes,
@@ -22,8 +22,6 @@ const Menu: React.FC<MenuProps> = ({
   );
 };
 
-export const MenuItem = MenuItemBase;
-
-export default WithHidden<MenuProps>(Menu);
+export const Menu = WithHidden<MenuProps>(MenuComponent);
 
 export * from './MenuItem';

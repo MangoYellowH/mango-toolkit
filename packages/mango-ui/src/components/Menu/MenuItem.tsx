@@ -1,6 +1,6 @@
 import clsx from 'clsx';
-import React from 'react';
-import WithClick, { WithClickType } from '../../hoc/WithClick';
+import React, { ReactElement } from 'react';
+import { WithClick, WithClickType } from '../../hoc/WithClick';
 
 export interface MenuItemBaseProps extends WithClickType {
   label: string;
@@ -10,8 +10,8 @@ export interface MenuItemBaseProps extends WithClickType {
 const MenuItemBase: React.FC<MenuItemBaseProps> = ({
   label,
   classes,
-}: MenuItemBaseProps) => {
+}: MenuItemBaseProps): ReactElement<MenuItemBaseProps> => {
   return <div className={clsx('MenuItem', classes)}>{label}</div>;
 };
 
-export default WithClick<MenuItemBaseProps>(MenuItemBase);
+export const MenuItem = WithClick<MenuItemBaseProps>(MenuItemBase);

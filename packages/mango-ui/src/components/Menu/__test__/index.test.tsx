@@ -1,6 +1,6 @@
 import React from 'react';
 import { render, cleanup, fireEvent } from '@testing-library/react';
-import Menu, { MenuItem } from '../index';
+import { Menu, MenuItem } from '../index';
 
 describe('Menu Component', () => {
   beforeEach(cleanup);
