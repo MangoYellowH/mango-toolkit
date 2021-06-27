@@ -6,6 +6,21 @@ export default {
   title: 'Components/Menu',
 };
 
+// const MenuItem = [
+//   {
+//     value: 'menu1',
+//     label: 'menu1',
+//   },
+//   {
+//     value: 'menu2',
+//     label: 'menu2',
+//   },
+//   {
+//     value: 'menu3',
+//     label: 'menu4',
+//   },
+// ];
+
 const MenuStory = (): ReactElement => {
   const [, setMenuOpen] = useState<boolean>(false);
 
