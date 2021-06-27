@@ -4,7 +4,7 @@ import WithHidden, { WithHiddenType } from '../../hoc/WithHidden';
 import { appendClickEvent } from '../../hoc/WithClick';
 import MenuItemBase, { MenuItemBaseProps } from './MenuItem';
 
-interface MenuProps extends WithHiddenType {
+export interface MenuProps extends WithHiddenType {
   onClick: (value?: string) => void;
   children: React.ReactElement<MenuItemBaseProps>[];
   classes?: string | string[];

@@ -10,6 +10,8 @@ import Header from './components/Header';
 
 import Animation from './components/Animation';
 
+import Menu, { MenuItem } from './components/Menu';
+
 export * from './components/Button';
 export * from './components/Editor';
 export * from './components/Input';
@@ -25,4 +27,6 @@ export default {
   Radio,
   Header,
   Animation,
+  Menu,
+  MenuItem,
 };
