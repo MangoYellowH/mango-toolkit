@@ -1,6 +1,6 @@
 import React from 'react';
 import { render, cleanup, fireEvent } from '@testing-library/react';
-import WithClick, { WithClickType } from '.';
+import WithClick, { appendClickEvent, WithClickType } from '.';
 
 interface MockComponentType extends WithClickType {
   text: string;
@@ -36,5 +36,25 @@ describe('WithClick Hoc', () => {
     );
     expect(container.querySelector('.click-area')).not.toBeInTheDocument();
     expect(getByText(mockText)).toBeInTheDocument();
+  });
+
+  test('appendClickEvent could append the click correctly', () => {
+    const mockValue = 'mockValue';
+    const mockText = 'mockText';
+    const WrappedComponent = WithClick<MockComponentType>(MockComponent);
+    const children = [<WrappedComponent text={mockText} value={mockValue} />];
+
+    const mockClick = jest.fn();
+
+    const { getByText } = render(
+      <div>{appendClickEvent(children, mockClick)}</div>,
+    );
+
+    const mockComponentEle = getByText(mockText);
+
+    expect(mockComponentEle).not.toBeNull();
+
+    fireEvent.click(mockComponentEle);
+    expect(mockClick).toBeCalledWith(mockValue);
   });
 });

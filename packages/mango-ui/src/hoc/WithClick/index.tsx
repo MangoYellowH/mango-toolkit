@@ -30,4 +30,13 @@ const WithClick = function WithClick<T extends WithClickType>(
   return WrappedComponent;
 };
 
+export const appendClickEvent = (
+  children: React.ReactElement<WithClickType>[],
+  onClick: (value?: string) => void,
+): React.ReactElement[] => {
+  return children.map((child) => {
+    return React.cloneElement(child, { onClick, key: child.props.value });
+  });
+};
+
 export default WithClick;

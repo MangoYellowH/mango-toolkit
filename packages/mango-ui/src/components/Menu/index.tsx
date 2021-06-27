@@ -1,15 +1,29 @@
 import clsx from 'clsx';
 import React from 'react';
-import { WithClickType } from '../../hoc/WithClick';
+import WithHidden, { WithHiddenType } from '../../hoc/WithHidden';
+import { appendClickEvent } from '../../hoc/WithClick';
+import MenuItemBase, { MenuItemBaseProps } from './MenuItem';
 
-interface MenuProps {
-  open?: boolean;
-  onClick?: () => void;
-  children?: React.FC<WithClickType>;
+interface MenuProps extends WithHiddenType {
+  onClick: (value?: string) => void;
+  children: React.ReactElement<MenuItemBaseProps>[];
+  classes?: string | string[];
 }
 
-const Menu: React.FC<MenuProps> = ({ children }: MenuProps) => {
-  return <div className={clsx('Menu')}>{children}</div>;
+const Menu: React.FC<MenuProps> = ({
+  children,
+  onClick,
+  classes,
+}: MenuProps) => {
+  return (
+    <div className={clsx('Menu', classes)}>
+      {appendClickEvent(children, onClick)}
+    </div>
+  );
 };
 
-export default Menu;
+export const MenuItem = MenuItemBase;
+
+export default WithHidden<MenuProps>(Menu);
+
+export * from './MenuItem';
