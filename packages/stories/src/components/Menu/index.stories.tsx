@@ -1,3 +1,4 @@
+import { Menu, MenuItem } from '@mango-solution/mango-ui';
 import React, { ReactElement, useState } from 'react';
 import Mango from '../../HOC/WithTheme/Mango';
 import Skyline from '../../HOC/WithTheme/Skyline';
@@ -6,35 +7,43 @@ export default {
   title: 'Components/Menu',
 };
 
-// const MenuItem = [
-//   {
-//     value: 'menu1',
-//     label: 'menu1',
-//   },
-//   {
-//     value: 'menu2',
-//     label: 'menu2',
-//   },
-//   {
-//     value: 'menu3',
-//     label: 'menu4',
-//   },
-// ];
+const MenuItemConfig = [
+  {
+    value: 'menu1',
+    label: 'menu1',
+  },
+  {
+    value: 'menu2',
+    label: 'menu2',
+  },
+  {
+    value: 'menu3',
+    label: 'menu4',
+  },
+];
 
 const MenuStory = (): ReactElement => {
-  const [, setMenuOpen] = useState<boolean>(false);
+  const [open, setMenuOpen] = useState<boolean>(false);
 
-  const handleFocus = () => {
+  const handleClick = () => {
     setMenuOpen(true);
   };
 
-  const handleBlur = () => {
+  const handleMenuClick = (value: string) => {
     setMenuOpen(false);
+    console.log(value);
   };
 
   return (
     <div style={{ width: '600px' }}>
-      <input onFocus={handleFocus} onBlur={handleBlur} />
+      <button onClick={handleClick} type="button">
+        show menu
+      </button>
+      <Menu onClick={handleMenuClick} hidden={!open}>
+        {MenuItemConfig.map(({ value, label }) => (
+          <MenuItem label={label} value={value} key={value} />
+        ))}
+      </Menu>
     </div>
   );
 };
