@@ -1,6 +1,5 @@
 import React, { ReactElement } from 'react';
 import clsx from 'clsx';
-import Item from './RadioItem';
 import { WithClickType } from '../../hoc/WithClick';
 
 export interface RadioBaseItemType extends WithClickType {
@@ -32,5 +31,4 @@ export const Radio: React.FC<RadioProps> = ({
   return <div className={clsx('Radio', classes)}>{ProcessdChildren}</div>;
 };
 
-export default Radio;
-export const RadioItem = Item;
+export * from './RadioItem';

@@ -1,6 +1,6 @@
 import React from 'react';
 import { render, cleanup } from '@testing-library/react';
-import Animation from '../index';
+import { Animation } from '../index';
 
 describe('Animation Component', () => {
   beforeEach(cleanup);

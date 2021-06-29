@@ -5,7 +5,7 @@ export interface WithClickType {
   onClick?: (value: string) => void; //  when click this area
 }
 
-const WithClick = function WithClick<T extends WithClickType>(
+export const WithClick = function WithClick<T extends WithClickType>(
   Component: ComponentType<T>,
 ): ComponentType<T> {
   const WrappedComponent: React.FC<T> = (props: T) => {
@@ -30,4 +30,11 @@ const WithClick = function WithClick<T extends WithClickType>(
   return WrappedComponent;
 };
 
-export default WithClick;
+export const appendClickEvent = (
+  children: React.ReactElement<WithClickType>[],
+  onClick: (value?: string) => void,
+): React.ReactElement[] => {
+  return children.map((child) => {
+    return React.cloneElement(child, { onClick, key: child.props.value });
+  });
+};
