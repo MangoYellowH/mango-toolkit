@@ -1,4 +1,4 @@
-import { Menu, MenuItem } from '@mango-solution/mango-ui';
+import { Menu, MenuItem, Button } from '@mango-solution/mango-ui';
 import React, { ReactElement, useState } from 'react';
 import Mango from '../../HOC/WithTheme/Mango';
 import Skyline from '../../HOC/WithTheme/Skyline';
@@ -36,9 +36,7 @@ const MenuStory = (): ReactElement => {
 
   return (
     <div style={{ width: '600px' }}>
-      <button onClick={handleClick} type="button">
-        show menu
-      </button>
+      <Button onClick={handleClick}>show menu</Button>
       <Menu onClick={handleMenuClick} hidden={!open}>
         {MenuItemConfig.map(({ value, label }) => (
           <MenuItem label={label} value={value} key={value} />

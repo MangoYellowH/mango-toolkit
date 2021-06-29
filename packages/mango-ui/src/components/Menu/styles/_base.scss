@@ -1,3 +1,38 @@
+$menu-border-color: black !default;
+$menu-border-radius: 4px !default;
+$menu-color: black !default;
+$menu-hover-background-color: grey !default;
+
 .Menu {
-  width: rem(400);
+  @include shadow;
+  border: 1px solid $menu-border-color;
+  border-radius: $menu-border-radius;
+
+  .click-area {
+    border-top: 1px solid $menu-border-color;
+    cursor: pointer;
+    &:first-child {
+      border-top: unset;
+      div {
+        border-top-left-radius: $menu-border-radius;
+        border-top-right-radius: $menu-border-radius;
+      }
+    }
+
+    &:last-child {
+      div {
+        border-bottom-left-radius: $menu-border-radius;
+        border-bottom-right-radius: $menu-border-radius;
+      }
+    }
+  }
+}
+
+.MenuItem {
+  @include bodyText;
+  color: $menu-color;
+  padding: rem(16);
+  &:hover {
+    background-color: $menu-hover-background-color;
+  }
 }
