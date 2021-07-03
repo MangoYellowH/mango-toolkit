@@ -1,6 +1,7 @@
 import React, { ComponentType } from 'react';
 
 export interface WithHiddenType {
+  setHidden?: (hidden: boolean) => void;
   hidden?: boolean;
 }
 

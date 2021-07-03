@@ -37,7 +37,11 @@ const MenuStory = (): ReactElement => {
   return (
     <div style={{ width: '600px' }}>
       <Button onClick={handleClick}>show menu</Button>
-      <Menu onClick={handleMenuClick} hidden={!open}>
+      <Menu
+        onClick={handleMenuClick}
+        hidden={!open}
+        setHidden={(hidden) => setMenuOpen(!hidden)}
+      >
         {MenuItemConfig.map(({ value, label }) => (
           <MenuItem label={label} value={value} key={value} />
         ))}
