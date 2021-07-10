@@ -3,10 +3,10 @@ $input-border-color: black !default;
 $input-border-color-focus: green !default;
 $input-background-color: #f1f1f1 !default;
 
-input[type~='text'] {
+input[type~="text"] {
   @include bodyText;
   border: 1px solid $input-border-color;
-  margin: 2 px;
+  margin: 2px;
   border-radius: $input-border-radius;
   height: 2rem;
   padding: 0.5rem;
