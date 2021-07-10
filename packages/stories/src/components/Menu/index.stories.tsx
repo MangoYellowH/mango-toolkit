@@ -50,6 +50,6 @@ const MenuStory = (): ReactElement => {
   );
 };
 
-export const mango = Mango<{}>(MenuStory);
+export const mango = Mango(MenuStory);
 
-export const skyline = Skyline<{}>(MenuStory);
+export const skyline = Skyline(MenuStory);

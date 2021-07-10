@@ -20,6 +20,6 @@ const InputStory = (): ReactElement => {
   );
 };
 
-export const mango = Mango<{}>(InputStory);
+export const mango = Mango(InputStory);
 
-export const skyline = Skyline<{}>(InputStory);
+export const skyline = Skyline(InputStory);

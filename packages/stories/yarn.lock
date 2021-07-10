@@ -2364,13 +2364,13 @@
     "@types/yargs" "^15.0.0"
     chalk "^3.0.0"
 
-"@mango-solution/eslint-config@^0.0.14":
-  version "0.0.14"
-  resolved "https://registry.yarnpkg.com/@mango-solution/eslint-config/-/eslint-config-0.0.14.tgz#58233c314fd0bf31dc3ade3400e65afaf28cf231"
-  integrity sha512-YtiX0NUIBTzP7Z/3bcX/O8pLDB0iVHBbrAJ3/2rTb4Pgl4wzX0tFcJ5SABLjIwEN91gSsXHpWmO+dm0UJufroA==
+"@mango-solution/eslint-config@^0.0.16":
+  version "0.0.16"
+  resolved "https://registry.yarnpkg.com/@mango-solution/eslint-config/-/eslint-config-0.0.16.tgz#2175cd4a2c71bb2c3a5a3196aef3541dff095aff"
+  integrity sha512-4+uDzRfTjAh+vbtWBVvOrYEnGIpy/SmAJAt6x5/SVCWp8rQ8cXAf2b+RffJR8rlAUb5jxXQSJYsz6Xu58qIHHw==
   dependencies:
-    "@typescript-eslint/eslint-plugin" "^4.28.2"
-    "@typescript-eslint/parser" "^4.28.2"
+    "@typescript-eslint/eslint-plugin" "^4.0.1"
+    "@typescript-eslint/parser" "^4.0.1"
     eslint "^7.30.0"
     eslint-config-airbnb "^18.2.1"
     eslint-config-prettier "^8.3.0"
@@ -2380,14 +2380,14 @@
     eslint-plugin-react "^7.24.0"
     eslint-plugin-react-hooks "^4.2.0"
 
-"@mango-solution/mango-ui@^0.0.46":
-  version "0.0.46"
-  resolved "https://registry.yarnpkg.com/@mango-solution/mango-ui/-/mango-ui-0.0.46.tgz#6a23b8b7de4b4ca3419fc8e9f0b79a0254b23774"
-  integrity sha512-9SOXx8uAUip/5A34iDySJh0qoyMqlj9YGM1p2MO25xREYDreKwr9EzvXKxrqLPfUCzQl8V5ibvAMQY5O/7aPlA==
+"@mango-solution/mango-ui@^0.0.48":
+  version "0.0.48"
+  resolved "https://registry.yarnpkg.com/@mango-solution/mango-ui/-/mango-ui-0.0.48.tgz#3b1c6b24f0593611e1e64e63b7fa9d16eb424843"
+  integrity sha512-KeRXHbhiGlo85HaOnL+xQlOh51+NtQgGm0bH/MwJk5lpggHKR+H4pHEuWYXJ32l22nTFZVs+swF/n5Iy1Y5QEw==
   dependencies:
-    "@types/draft-js" "^0.10.41"
+    "@types/draft-js" "^0.11.4"
     clsx "^1.1.1"
-    draft-js "^0.11.6"
+    draft-js "^0.11.7"
     normalize.css "^8.0.1"
     react "^17.0.2"
     react-dom "^17.0.2"
@@ -3400,10 +3400,10 @@
   resolved "https://registry.yarnpkg.com/@types/color-name/-/color-name-1.1.1.tgz#1c1261bbeaa10a8055bbc5d8ab84b7b2afc846a0"
   integrity sha512-rr+OQyAjxze7GgWrSaJwydHStIhHq2lvY3BOC2Mj7KnzI7XK0Uw1TOOdI9lDoajEbSWLiYgoo4f1R51erQfhPQ==
 
-"@types/draft-js@^0.10.41":
-  version "0.10.45"
-  resolved "https://registry.yarnpkg.com/@types/draft-js/-/draft-js-0.10.45.tgz#4ab5b0785fcacdea7d5a836d0024158fa8108e70"
-  integrity sha512-ozmVQEI088kGQfY2XPB0b+YRNbkv1mxdxcLieBLCc2F4IkVWMs6mnIaEbBRExmM3H/Amm9CvhlmIYmDL4CjBvA==
+"@types/draft-js@^0.11.4":
+  version "0.11.4"
+  resolved "https://registry.yarnpkg.com/@types/draft-js/-/draft-js-0.11.4.tgz#96637c1d29dff1dcd6394d9ea0192867354691a1"
+  integrity sha512-T/z+wlf7rVloFdUsrNJV15DVbKvJbq44Lkf9WPTuS1g3Lqaqw83MzeFFZntPrKcsiCNBlHZQw+14PGW2rYN+fg==
   dependencies:
     "@types/react" "*"
     immutable "~3.7.4"
@@ -3729,7 +3729,7 @@
   dependencies:
     "@types/yargs-parser" "*"
 
-"@typescript-eslint/eslint-plugin@^4.28.2":
+"@typescript-eslint/eslint-plugin@^4.0.1":
   version "4.28.2"
   resolved "https://registry.yarnpkg.com/@typescript-eslint/eslint-plugin/-/eslint-plugin-4.28.2.tgz#7a8320f00141666813d0ae43b49ee8244f7cf92a"
   integrity sha512-PGqpLLzHSxq956rzNGasO3GsAPf2lY9lDUBXhS++SKonglUmJypaUtcKzRtUte8CV7nruwnDxtLUKpVxs0wQBw==
@@ -3754,7 +3754,7 @@
     eslint-scope "^5.1.1"
     eslint-utils "^3.0.0"
 
-"@typescript-eslint/parser@^4.28.2":
+"@typescript-eslint/parser@^4.0.1":
   version "4.28.2"
   resolved "https://registry.yarnpkg.com/@typescript-eslint/parser/-/parser-4.28.2.tgz#6aff11bf4b91eb67ca7517962eede951e9e2a15d"
   integrity sha512-Q0gSCN51eikAgFGY+gnd5p9bhhCUAl0ERMiDKrTzpSoMYRubdB8MJrTTR/BBii8z+iFwz8oihxd0RAdP4l8w8w==
@@ -6316,7 +6316,7 @@ downshift@^6.0.15:
     prop-types "^15.7.2"
     react-is "^17.0.2"
 
-draft-js@^0.11.6:
+draft-js@^0.11.7:
   version "0.11.7"
   resolved "https://registry.yarnpkg.com/draft-js/-/draft-js-0.11.7.tgz#be293aaa255c46d8a6647f3860aa4c178484a206"
   integrity sha512-ne7yFfN4sEL82QPQEn80xnADR8/Q6ALVworbC5UOSzOvjffmYfFsr3xSZtxbIirti14R7Y33EZC5rivpLgIbsg==

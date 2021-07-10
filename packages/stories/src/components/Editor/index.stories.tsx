@@ -27,6 +27,6 @@ const EditorStory = (): ReactElement => {
   );
 };
 
-export const mango = Mango<{}>(EditorStory);
+export const mango = Mango(EditorStory);
 
-export const skyline = Skyline<{}>(EditorStory);
+export const skyline = Skyline(EditorStory);

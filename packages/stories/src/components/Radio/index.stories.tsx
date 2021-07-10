@@ -21,6 +21,6 @@ const RadioStory = (): ReactElement => {
   );
 };
 
-export const mango = Mango<{}>(RadioStory);
+export const mango = Mango(RadioStory);
 
-export const skyline = Skyline<{}>(RadioStory);
+export const skyline = Skyline(RadioStory);
