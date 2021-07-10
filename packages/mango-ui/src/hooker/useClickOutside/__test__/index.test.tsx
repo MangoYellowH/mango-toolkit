@@ -6,11 +6,11 @@ import useClickOutside from '..';
 describe('useClickOutside hooker', () => {
   beforeEach(cleanup);
   test('useClickOutside could work correctly', async () => {
-    const mockRef = ({
+    const mockRef = {
       current: {
         contains: jest.fn(() => false),
       },
-    } as unknown) as React.RefObject<HTMLElement>;
+    } as unknown as React.RefObject<HTMLElement>;
 
     const mockfn = jest.fn();
 

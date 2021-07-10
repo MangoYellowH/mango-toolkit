@@ -1,4 +1,5 @@
 .storybook/*
 .prettierignore
+node_modules
 
 dist
