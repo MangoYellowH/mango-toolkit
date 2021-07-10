@@ -7,7 +7,7 @@ export default {
   title: 'Global Styles/Typograph',
 };
 
-const Typograph: React.FC<{}> = (): React.ReactElement => (
+const Typograph: React.FC = (): React.ReactElement => (
   <div style={{ width: '200px' }} className="typograph-area">
     <div className="banner-text">banner</div>
     <div className="header-text">header</div>
@@ -16,6 +16,6 @@ const Typograph: React.FC<{}> = (): React.ReactElement => (
   </div>
 );
 
-export const mango = Mango<{}>(Typograph);
+export const mango = Mango(Typograph);
 
-export const skyline = Skyline<{}>(Typograph);
+export const skyline = Skyline(Typograph);

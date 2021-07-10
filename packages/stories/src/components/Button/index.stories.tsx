@@ -33,6 +33,6 @@ const ButtonStory = (): ReactElement => (
   </div>
 );
 
-export const mango = Mango<{}>(ButtonStory);
+export const mango = Mango(ButtonStory);
 
-export const skyline = Skyline<{}>(ButtonStory);
+export const skyline = Skyline(ButtonStory);

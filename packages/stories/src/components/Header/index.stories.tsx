@@ -11,6 +11,6 @@ const HeaderStory = (): ReactElement => {
   return <Header />;
 };
 
-export const mango = Mango<{}>(HeaderStory);
+export const mango = Mango(HeaderStory);
 
-export const skyline = Skyline<{}>(HeaderStory);
+export const skyline = Skyline(HeaderStory);

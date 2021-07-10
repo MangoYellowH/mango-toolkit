@@ -6,7 +6,7 @@ export default {
   title: 'Global Styles/SVG',
 };
 
-export const Left: React.FC<{}> = (): React.ReactElement => (
+export const Left: React.FC = (): React.ReactElement => (
   <div style={{ width: '20px' }}>
     <LeftIcon />
   </div>

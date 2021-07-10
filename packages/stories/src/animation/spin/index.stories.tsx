@@ -8,7 +8,7 @@ export default {
   title: 'Animation/spin',
 };
 
-const SpinComponent: React.FC<{}> = (): ReactElement => {
+const SpinComponent: React.FC = (): ReactElement => {
   const [state, setState] = useState<AnimationState>(AnimationState.initial);
 
   const handleMouseOver = () => {
@@ -32,6 +32,6 @@ const SpinComponent: React.FC<{}> = (): ReactElement => {
   );
 };
 
-export const mango = Mango<{}>(SpinComponent);
+export const mango = Mango(SpinComponent);
 
-export const skyline = Skyline<{}>(SpinComponent);
+export const skyline = Skyline(SpinComponent);

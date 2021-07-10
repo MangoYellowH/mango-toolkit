@@ -9,7 +9,8 @@ export const WithHidden = <T extends WithHiddenType>(
   Component: ComponentType<T>,
 ): ComponentType<T> => {
   const WrappedComponent: React.FC<T> = (props: T) => {
-    if (props?.hidden) {
+    const { hidden } = props;
+    if (hidden) {
       return <></>;
     }
 
