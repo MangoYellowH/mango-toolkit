@@ -14,10 +14,14 @@ const EditorStory = (): ReactElement => {
     EditorState.createEmpty(),
   );
 
+  const handleOnChange = (state: EditorState) => {
+    setEditorState(state);
+  };
+
   return (
     <Editor
       editorState={editorState}
-      onChange={setEditorState}
+      onChange={handleOnChange}
       placeholder={text('placeholder', 'placeholder')}
     />
   );
