@@ -4,9 +4,7 @@ module.exports = {
     'eslint:recommended',
     'plugin:@typescript-eslint/recommended',
     'plugin:prettier/recommended',
-    'prettier/flowtype',
-    'prettier/react',
-    'prettier/standard',
+    'prettier',
   ],
   plugins: ['react', '@typescript-eslint', 'jsx-a11y'],
   settings: {
